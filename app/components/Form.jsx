@@ -12,19 +12,19 @@ export default function Form() {
     };
 
     return (
-        <form name="contact" method="post" data-netlify="true" className="flex flex-col pb-8 lg:pb-16 sm:w-4/6">
+        <form name="contact" method="post" netlify className="flex flex-col pb-8 lg:pb-16 sm:w-4/6">
             <input type="hidden" name="form-name" value="contact" />
             <div className="flex flex-col sm:flex-row sm:w-full">
                 <div className="pb-8 sm:mr-2 sm:w-1/2">
-                    <input type="text" placeholder="Name" className="xl:text-2xl shadow bg-white input sm:input-lg  input-bordered input-primary w-full h-12 rounded" />
+                    <input type="text" placeholder="Name" name="name" className="xl:text-2xl shadow bg-white input sm:input-lg  input-bordered input-primary w-full h-12 rounded" />
                 </div>
                 <div className="pb-8 sm:w-1/2">
-                    <input type="text" placeholder="Email" className="xl:text-2xl shadow bg-white input sm:input-lg input-bordered input-primary w-full h-12 rounded" />
+                    <input type="text" placeholder="Email" name="email" className="xl:text-2xl shadow bg-white input sm:input-lg input-bordered input-primary w-full h-12 rounded" />
                 </div>
             </div>
             <div className="flex flex-row">
                 <div className="pb-8 sm:w-full">
-                    <select className="shadow sm:text-lg xl:text-2xl bg-white select sm:select-lg sm:w-full select-bordered rounded h-12 w-64" value={selectedProduct} onChange={handleProductChange}>
+                    <select name="product" className="shadow sm:text-lg xl:text-2xl bg-white select sm:select-lg sm:w-full select-bordered rounded h-12 w-64" value={selectedProduct} onChange={handleProductChange}>
                         <option value="" disabled>Products</option>
                         <option value="High Times Catnip ($11.99)">High Times Catnip ($11.99)</option>
                         <option value="High Times Dog Chew ($21.99)">High Times Dog Chew ($21.99)</option>
