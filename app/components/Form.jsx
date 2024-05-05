@@ -6,13 +6,12 @@ import Counter from './Counter.jsx';
 export default function Form() {
     const [selectedProduct, setSelectedProduct] = useState('');
 
-    // Handler to update state when product selection changes
     const handleProductChange = (event) => {
         setSelectedProduct(event.target.value);
     };
 
     return (
-        <form name="contact" method="post" netlify className="flex flex-col pb-8 lg:pb-16 sm:w-4/6">
+        <form name="contact" method="post" data-netlify="true" className="flex flex-col pb-8 lg:pb-16 sm:w-4/6">
             <input type="hidden" name="form-name" value="contact" />
             <div className="flex flex-col sm:flex-row sm:w-full">
                 <div className="pb-8 sm:mr-2 sm:w-1/2">

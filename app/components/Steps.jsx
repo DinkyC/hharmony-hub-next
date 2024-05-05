@@ -8,7 +8,7 @@ export default function Steps() {
 
     return (
         <div ref={ref}>
-            <div className={`buy ${inView ? "buy-visible" : ""}`}>
+            <div className={`transition-all duration-[1500ms] relative ${inView ? "left-0" : "-left-full"} top-0 w-screen`}>
                 <div className="buy-sect">
                     <div className="circle-container">
                         <div className="circle"><span>1</span></div>
