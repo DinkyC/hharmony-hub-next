@@ -2,8 +2,6 @@
 import Image from "next/image";
 import React, { useEffect } from 'react';
 
-
-
 export default function Hero() {
 
     useEffect(() => {
@@ -19,7 +17,7 @@ export default function Hero() {
         <div className="sect-1">
             <div className="subsect-1">
                 <h1>
-                    Balancing Life's Essentials, Naturally.
+                    Balancing Life&rsquo;s Essentials, Naturally.
                 </h1>
                 <p className="sub-text">
                     Elevating lifestyles with sustainable, nature-inspired products for holistic well-being.
@@ -30,7 +28,7 @@ export default function Hero() {
                     Elevating lifestyles with sustainable, nature-inspired products for holistic well-being.
                 </p>
             </div>
-            <Image src="/nature.jpg" className="photo" alt="Nature" width={500} height={300}/>
+            <Image src="/hhubspot-hero2.webp" className="photo" alt="Nature" width={500} height={300}/>
         </div>
       </>
     );

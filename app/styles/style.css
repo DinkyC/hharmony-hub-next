@@ -20,11 +20,12 @@ body {
 .logo {
     width: 10vw;
     height: 5vh;
-    padding-left: 9px;
     color: white;
 }
 
 .headerSect {
+    z-index: 2;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: start;
@@ -36,7 +37,7 @@ body {
 .headerSect > span {
     font-weight: bold;
     font-size: 20px;
-    padding-left: 3vw;
+    padding-left: 0;
 }
 
  /* First Section */
@@ -48,6 +49,7 @@ body {
         "subsect-1"
         "photo"
         "sub-text-mobile";
+    padding-top: 7vh;
 }
 
 .subsect-1 {
@@ -70,7 +72,6 @@ body {
     width: 75vw;
     height: 25vh;
     margin: 0 auto;
-    background-color: black;
     color: white;
     margin-bottom: 5vh;
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.7);
@@ -130,9 +131,11 @@ body {
 
 
 h2 {
+    font-size: 25px;
     margin-top: 15vh;
     margin-bottom: 5vh;
     text-align: center;
+    font-weight: bold;
 }
 
 .title-sect > h3 {
@@ -166,6 +169,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 3vh;
 }
 
 .benes {
@@ -180,7 +184,7 @@ h2 {
     text-align: left;
     padding-left: 0;
     display: grid;
-    column-gap: 20px;
+    column-gap: 9px;
     grid-template-columns: repeat(2, 1fr);
     max-width: 100%;
 }
@@ -197,14 +201,14 @@ ul {
   list-style: none;
 }
 
-ul li:before {
+.benefits li:before {
   margin-right: 5px;
   color: green;
   transition: font-size 0.3s;
   content: '✓';
 }
 
-ul li:hover:before {
+.benefits li:hover:before {
     font-size: 22px;
 }
 
@@ -248,6 +252,7 @@ h4 {
 
 .circle-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     margin-bottom: 10vh; 
     margin-left: 2vw;
@@ -262,22 +267,23 @@ h4 {
 
 .circle {
     text-align: center;
-    width: 50px;
-    height: 50px;
+    width: 75px;
+    height: 75px;
     background-color: #fff;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 10px; 
+    margin-right: 10px;
 }
 
 .circle > span {
     font-weight: bold;
-    font-size: 25px;
+    font-size: 45px;
 }
 
 .circle-text {
+    padding-top: 3vh;
     font-weight: bold;
     font-size: 18px;
 }
@@ -294,14 +300,22 @@ h4 {
     }
 
     .circle-text {
+        text-align: center;
+        padding-top: 2vh;
         font-size: 15px;
+    }
+    .circle {
+        width: 65px;
+        height: 65px;
     }
 
     .circle > span {
         width: 100vw;
+        font-size: 35px;
     }
 
     .buy-sect {
+       padding-left: 0;
        display: flex;
        justify-content: center;
        flex-direction: row;
@@ -320,6 +334,15 @@ h4 {
         font-size: 22px;
     }
 
+    .circle-container {
+        flex-direction: row;
+    }
+
+    .circle-text {
+        padding-top: 0;
+        text-align: start;
+    }
+
     div > p {
         font-size: 22px;
     }
@@ -333,7 +356,7 @@ h4 {
     }
    
     .benefits {
-        grid-gap: 15px;
+        grid-gap: 6px;
     }
     .benefits li {
         font-size: 22px;
@@ -347,9 +370,6 @@ h4 {
         font-size: 28px;
     }
     
-    .circle-text {
-        font-size: 22px;
-    }
 
     .circle {
         width: 65px;
@@ -362,12 +382,20 @@ h4 {
         width: 4vw;
         height: 6vh;
         }
+      
+      .circle-text {
+        font-size: 20px;
+      }
 }
 
 @media screen and (min-width: 1000px) {
     .productPhoto {
         width: 55vw;
-    } 
+    }
+
+    .circle > span {
+        font-size: 35px;
+    }
 }
 
 
@@ -462,7 +490,6 @@ h4 {
 
     .bene-sect {
         padding-left: 0;
-        padding-top: 0;
         text-align: start;
         display: flex;
         align-items: center;
@@ -470,7 +497,7 @@ h4 {
     }
     
     .benefits {
-        width: 119%;
+        width: 50vw;
     }
 
     .benefits > li {
@@ -527,7 +554,7 @@ h4 {
     }
     .circle > span {
         width: 100vw;
-        font-size: 35px;
+        font-size: 40px;
     }
 
     .buy-sect {
@@ -541,6 +568,9 @@ h4 {
 @media screen and (min-width: 1500px) {
     .logo {
         width: 3vw;
+    }
+    .circle > span {
+        font-size: 45px;
     }
 }
 
