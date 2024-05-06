@@ -14,13 +14,15 @@
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "@hookform/resolvers": "^3.3.4",
     "font-awesome": "^4.7.0",
     "next": "14.2.2",
     "react": "^18",
     "react-dom": "^18",
     "react-hook-form": "^7.51.3",
     "react-intersection-observer": "^9.8.2",
-    "sharp": "^0.33.3"
+    "sharp": "^0.33.3",
+    "zod": "^3.23.6"
   },
   "devDependencies": {
     "daisyui": "^4.10.3",
