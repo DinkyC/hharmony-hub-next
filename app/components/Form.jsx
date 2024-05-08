@@ -2,7 +2,7 @@
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import { useForm, SubmitHandler } from "react-hook-form";
-import React, { useState, setState } from 'react';
+import React, { useEffect, useState, setState } from 'react';
 import Counter from './Counter.jsx';
 import { useRouter } from 'next/navigation';
 
@@ -18,51 +18,59 @@ const FormFields = z.infer;
 export default function Form() {
 
     const {
+        reset,
         handleSubmit,
         register,
         setError,
-        formState: { errors, isSubmitting },
+        formState,
+        formState: { errors, isSubmitting, isSubmitSuccessful },
       } = useForm({
         resolver: zodResolver(schema),
       });
 
     const [selectedProduct, setSelectedProduct] = useState('');
     const [counter, setCounter] = useState(1);
-    const [formData, setFormData] = useState({});
+    
+    useEffect(() => {
+      if (formState.isSubmitSuccessful) {
+        reset(); 
+      }
+
+    }, [formState, reset]);
 
     const handleProductChange = (event) => {
         setSelectedProduct(event.target.value);
     };
 
-    const encode = (data) => {
-        return Object.keys(data)
-          .map(
-            (key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key])
-          )
-          .join('&');
-      };
-
-    const onSubmission = async (data) => {
-        fetch('/', {
+     const onSubmission = async (data) => {
+        fetch('/api/contact', {
             method: 'POST',
-            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-            body: encode({ 'form-name': 'contact', ...data }),
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(data),
         })
-        .then(() => {
-            console.log(data);
-            alert('Success! We will be reaching out to shortly!');
+        .then(console.log(JSON.stringify(data)))
+        .then(response => {
+            console.log(response);  // Check the raw response
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response;  // This will fail if the body is empty
         })
-        .catch((error) => alert(error));
-    };
+        .then(data => {
+            console.log('Success:', data);
+            location.reload;
+            window.scrollTo(0,0);
+            alert('Success! We will be reaching out to you shortly!');
+        })
+        .catch((error) => {
+            console.error('Error:', error);
+            alert('Failed to send: ' + error.message);
+        });
 
-
-    const handleChange = (e) => {
-        setFormData({ ...formData, [e.target.name]: e.target.value });
     };
 
     return (
-        <form name="contact" method="POST" action="/" data-netlify="true" onSubmit={handleSubmit(onSubmission)} className="flex flex-col pb-8 lg:pb-16 sm:w-4/6">
-            <input type="hidden" name="form-name" value="contact" />
+        <form name="contact" method="POST" action="/" onSubmit={handleSubmit(onSubmission)} className="flex flex-col pb-8 lg:pb-16 sm:w-4/6">
             <div className="flex flex-col sm:flex-row sm:w-full">
                 <div className="pb-8 sm:mr-2 sm:w-1/2">
                     <input
@@ -71,7 +79,6 @@ export default function Form() {
                         placeholder="Name" 
                         name="name" 
                         className="xl:text-2xl shadow bg-white input sm:input-lg  input-bordered input-primary w-full h-12 rounded"
-                        onChange={handleChange}
                     />
                    {errors.name && (
                         <div className="text-red-500">{errors.name.message}</div>
@@ -84,7 +91,6 @@ export default function Form() {
                         placeholder="Email" 
                         name="email" 
                         className="xl:text-2xl shadow bg-white input sm:input-lg input-bordered input-primary w-full h-12 rounded"
-                        onChange={handleChange}
                     />
                     {errors.email && (
                         <div className="text-red-500">{errors.email.message}</div>
@@ -99,10 +105,7 @@ export default function Form() {
                         name="product" 
                         className="shadow sm:text-lg xl:text-2xl bg-white select sm:select-lg sm:w-full select-bordered rounded h-12 w-64"
                         value={selectedProduct} 
-                        onChange={(e) => {
-                            handleProductChange(e);
-                            handleChange(e);
-                        }}>
+                        onChange={handleProductChange}>
                             <option value="" disabled>Products</option>
                             <option value="High Times Catnip ($11.99)">High Times Catnip ($11.99)</option>
                             <option value="High Times Dog Chew ($21.99)">High Times Dog Chew ($21.99)</option>
@@ -117,12 +120,17 @@ export default function Form() {
                     {...register("count")}
                     type="text" 
                     hidden 
-                    onChange={handleChange} 
                     name="count" 
                     value={Number(counter)} 
                 />
              </div>
-            <button type="submit" disabled={isSubmitting} className="bg-regal-brown shadow-black text-xl lg:text-2xl xl:text-3xl btn sm:btn-lg btn-neutral text-white">{isSubmitting ? "Loading..." : "Contact Us Today"}</button>
+            <button
+                type="submit" 
+                disabled={isSubmitting} 
+                className="bg-regal-brown shadow-black text-xl lg:text-2xl xl:text-3xl btn sm:btn-lg btn-neutral text-white"
+            >
+                {isSubmitting ? "Loading..." : "Contact Us Today"}
+           </button>
         </form>
     );
 }
