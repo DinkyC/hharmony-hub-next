@@ -16,7 +16,7 @@ export default function Counter({ counter, setCounter }) {
     };
 
     const onClear = () => {
-        setCounter(0);
+        setCounter(1);
     };
 
     return (

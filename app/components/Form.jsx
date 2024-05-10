@@ -26,6 +26,7 @@ export default function Form() {
         formState: { errors, isSubmitting, isSubmitSuccessful },
       } = useForm({
         resolver: zodResolver(schema),
+
       });
 
     const [selectedProduct, setSelectedProduct] = useState('');
@@ -78,7 +79,7 @@ export default function Form() {
                         type="text"
                         placeholder="Name" 
                         name="name" 
-                        className="xl:text-2xl shadow bg-white input sm:input-lg  input-bordered input-primary w-full h-12 rounded"
+                        className="xl:text-2xl shadow input sm:input-lg  input-bordered input-primary w-full h-12 rounded"
                     />
                    {errors.name && (
                         <div className="text-red-500">{errors.name.message}</div>
@@ -90,7 +91,7 @@ export default function Form() {
                         type="email" 
                         placeholder="Email" 
                         name="email" 
-                        className="xl:text-2xl shadow bg-white input sm:input-lg input-bordered input-primary w-full h-12 rounded"
+                        className="xl:text-2xl shadow input sm:input-lg input-bordered input-primary w-full h-12 rounded"
                     />
                     {errors.email && (
                         <div className="text-red-500">{errors.email.message}</div>
@@ -103,13 +104,21 @@ export default function Form() {
                         {...register("product")}
                         type="text" 
                         name="product" 
-                        className="shadow sm:text-lg xl:text-2xl bg-white select sm:select-lg sm:w-full select-bordered rounded h-12 w-64"
+                        className="shadow sm:text-lg xl:text-2xl select sm:select-lg sm:w-full select-bordered rounded h-12 w-64"
                         value={selectedProduct} 
                         onChange={handleProductChange}>
                             <option value="" disabled>Products</option>
                             <option value="High Times Catnip ($11.99)">High Times Catnip ($11.99)</option>
                             <option value="High Times Dog Chew ($21.99)">High Times Dog Chew ($21.99)</option>
                             <option value="High Times Cat Chew ($21.99)">High Times Cat Chew ($21.99)</option>
+                            <option value="High Times Beer ($19.99)">High Times Beer ($19.99)</option>
+                            <option value="High Times Hard Cider ($19.99)">High Times Hard Cider ($19.99)</option>
+                            <option value="High Times Liqueur($25.99)">High Times Liqueur ($25.99)</option>
+                            <option value="High Times Mezcal ($39.99)">High Times Mezcal ($39.99)</option>
+                            <option value="High Times Tequila ($49.99)">High Times Tequila ($49.99)</option>
+                            <option value="High Times Wine ($15.99)">High Times Wine ($15.99)</option>
+                            <option value="High Times Mead ($19.99)">High Times Mead ($19.99)</option>
+
                     </select>
                     {errors.product && (
                         <div className="text-red-500">{errors.product.message}</div>

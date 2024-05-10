@@ -6,13 +6,16 @@ import Footer from "./components/Footer.jsx";
 export const metadata = {
   title: "Harmony Hubspot",
   description: "Find the best products to bring you harmony and peace",
+  icons: {
+    icon: "/hhubspot-logo.ico",
+    }, 
 };
 
 
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html data-theme="light" lang="en">
       <body>
           <Header>
             <Link href="/">
@@ -20,7 +23,6 @@ export default function RootLayout({ children }) {
                 Harmony Hubspot
               </span>
             </Link>
-
           </Header>
           {children}
           <Footer/>

@@ -16,7 +16,7 @@ export default function Hero() {
       <>
         <div className="sect-1">
             <div className="subsect-1">
-                <h1>
+                <h1 className="mr-5 ml-5 sm:m-0">
                     Balancing Life&rsquo;s Essentials, Naturally.
                 </h1>
                 <p className="sub-text">

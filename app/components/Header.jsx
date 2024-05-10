@@ -5,7 +5,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import CustomSidebar from './CustomSidebar'; // Assuming CustomSidebar is a component
 
+
+
 export default function Header({ children }) {
+
   const [isVisible, setIsVisible] = useState(false);
 
   const changeVis = () => {

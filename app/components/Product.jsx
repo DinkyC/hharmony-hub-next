@@ -3,7 +3,7 @@ import { useInView } from 'react-intersection-observer';
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
 
-export default function Product({ brand, title, descr, bene1, bene2, bene3, bene4, price, isAlt, photo }) { 
+export default function Product({ brand, title, descr, bene1, bene2, bene3, bene4, price, isAlt, photo, photoSize }) { 
     const [displayPrice, setDisplayPrice] = useState(price);
     const { ref, inView } = useInView({
         threshold: 0,
@@ -35,7 +35,11 @@ export default function Product({ brand, title, descr, bene1, bene2, bene3, bene
                     <h3><b>{brand}</b></h3>
                     <h3>{title}</h3>
                 </div>
-                <Image src={photo} alt={`${title}`} width={500} height={500} className="productPhoto" />
+                <div 
+                    className="productPhoto flex justify-center items-center self-center w-[60vw] h-[40vh] lg:w-[50vw] lg:h-[65vh] xl:w-[40vw] m-0 mb-[5vh] mt-[3vh] rounded-br-lg shadow-2xl">
+                    <Image src={photo} alt={`${title}`} width={500} height={500} className={`${photoSize} `} />
+                </div>
+
             </div>
             <div className="info-sect">
                 <div className="title-sect-mobile">
