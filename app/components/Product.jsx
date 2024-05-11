@@ -29,14 +29,14 @@ export default function Product({ brand, title, descr, bene1, bene2, bene3, bene
 
     let className = isAlt ? "productTitle altProductTitle xl:pr-24" : "productTitle";
     return (
-        <div className={`${className} max-[624px]:bg-regal-brown max-[624px]:rounded-3xl max-[624px]:shadow-xl`} style={{ marginBottom: "8vh"}}>
+        <div className={`${className} max-[624px]:bg-dark-red max-[624px]:opacity-95 max-[624px]:rounded-3xl max-[624px]:shadow-xl`} style={{ marginBottom: "8vh"}}>
             <div className="title-photo-sect">
                 <div className="title-sect max-[624px]:mt-3">
                     <h3 className="text-lg"><b>{brand}</b></h3>
                     <h3 className="text-lg">{title}</h3>
                 </div>
                 <div 
-                    className="productPhoto flex max-[624px]:bg-light-regal justify-center items-center self-center w-[60vw] h-[40vh] lg:w-[50vw] lg:h-[65vh] xl:w-[40vw] m-0 mb-[5vh] mt-[3vh] rounded-br-lg shadow-2xl">
+                    className="productPhoto flex max-[624px]:bg-dark-slate max-[624px]:bg-gradient-to-b max-[624px]:from-gray-200 max-[624px]:to-transparent justify-center items-center self-center w-[60vw] h-[40vh] lg:w-[50vw] lg:h-[65vh] xl:w-[40vw] m-0 mb-[5vh] mt-[3vh] rounded-br-lg shadow-2xl">
                     <Image src={photo} alt={`${title}`} width={500} height={500} className={`${photoSize} `} />
                 </div>
 

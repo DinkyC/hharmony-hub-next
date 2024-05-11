@@ -25,10 +25,12 @@ export default function Header({ children }) {
         // Scrolling down
         if (currentScrollY > 200) {
           setSmall(true);
+          setIsVisible(false);
         }
       } else {
         // Scrolling up
         setSmall(false);
+        setIsVisible(false);
       }
       lastScrollY.current = currentScrollY;
     };
