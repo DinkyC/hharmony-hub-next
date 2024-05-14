@@ -9,9 +9,9 @@ export default function Home() {
         <Hero />
         <Divider text="Products" />
         <Product 
-            brand="High Times"
+            brand="High Times™"
             title="Calming Cat Chews"
-            descr={"Crafted specifically for cats to provide a natural and holistic approach to their well-being. Infused with high-quality hemp," + 
+            descr={"Crafted specifically for cats to provide a natural and holistic approach to their well-being. " + 
                     "these chews offer a delicious and calming experience, " + 
                     "promoting relaxation and overall health for your furry friend."}
             bene1="Calming Effect"
@@ -20,13 +20,13 @@ export default function Home() {
             bene4="Enhanced Wellness"
             price="$21.99"
             isAlt={false}
-            photo="/cat-chews.png"
+            photo="/ht-cat-chew.png"
             photoSize={ogPhotoSize}
         />
         <Product 
-            brand="High Times"
+            brand="High Times™"
             title="Calming Dog Chews"
-            descr={"Crafted specifically for dogs to provide a natural and holistic approach to their well-being. Infused with high-quality hemp," + 
+            descr={"Crafted specifically for dogs to provide a natural and holistic approach to their well-being. " + 
                     "these chews offer a delicious and calming experience, " + 
                     "promoting relaxation and overall health for your furry friend."}
             bene1="Calming Effect"
@@ -35,27 +35,27 @@ export default function Home() {
             bene4="Enhanced Wellness"
             price="$21.99"
             isAlt={true}
-            photo="/dog-chews.png"
+            photo="/ht-dog-chew.png"
             photoSize={ogPhotoSize}
         />
         <Product 
-            brand="High Times"
+            brand="High Times™"
             title="Catnip"
-            descr={"Indulge your cat with High Times Catnip, crafted from the finest, all-natural herbs for a truly 'elevated' experience. " + 
-                    "This premium blend delivers a safe, exhilarating high that will have your feline friend purring for more."}
+            descr={"Indulge your cat with this premium Catnip, crafted from the finest, all-natural herbs for a truly 'elevated' experience. " + 
+                   "This exclusive blend delivers a safe, exhilarating sensation that will have your feline friend purring for more."}
             bene1="Relaxing"
             bene2="Blissful"
             bene3="Mood Boosting"
             bene4="Safe & Edible"
             price="$11.99"
             isAlt={false}
-            photo="/catnip.png"
+            photo="/ht-catnip.png"
             photoSize="w-[65vw] h-[35vh] sm:h-[38vh] sm:w-[45vw] lg:w-[70vw] lg:h-[65vh] xl:w-[45vw] xl:h-[65vh]"
         />
         <Product 
-            brand="High Times"
+            brand="High Times™"
             title="Beer"
-            descr={"Experience the crisp refreshment of High Times Beer (6 pack), a craft brew with a bold hop profile and a clean finish."}
+            descr={"Experience the crisp refreshment of a pack of lager beer (6 pack), a craft brew with a bold hop profile and a clean finish."}
             bene1="Bold"
             bene2="Crisp"
             bene3="Hoppy"
@@ -66,9 +66,9 @@ export default function Home() {
             photoSize="w-[50vw] h-[35vh] sm:h-[40vh] sm:w-[30vw] md:w-[30vw] lg:w-[35vw] lg:h-[65vh] xl:w-[28vw] xl:h-[65vh]"
         />
         <Product 
-            brand="High Times"
+            brand="High Times™"
             title="Hard Cider"
-            descr={"Indulge in the crisp, fruity essence of High Times Hard Cider (6 pack), a refreshing beverage made from orchard-fresh apples."}
+            descr={"Indulge in the crisp, fruity essence of a cold hard cider (6 pack), a refreshing beverage made from orchard-fresh apples."}
             bene1="Crisp"
             bene2="Fruity"
             bene3="Bright"
@@ -79,9 +79,9 @@ export default function Home() {
             photoSize="w-[30vw] h-[35vh] sm:h-[35vh] sm:w-[20vw] md:w-[20vw] lg:w-[23vw] lg:h-[55vh] xl:w-[18vw] xl:h-[58vh]"
         />
         <Product 
-            brand="High Times"
+            brand="High Times™"
             title="Liqueur"
-            descr={"Discover the smooth sophistication of High Times Liqueur, a versatile blend of fine spirits infused with rich flavors."}
+            descr={"Discover the smooth sophistication of liqueur, a versatile blend of fine spirits infused with rich flavors."}
             bene1="Smooth"
             bene2="Rich"
             bene3="Versatile"
@@ -92,9 +92,9 @@ export default function Home() {
             photoSize="w-[40vw] h-[30vh] sm:h-[35vh] sm:w-[30vw] md:w-[25vw] lg:w-[35vw] lg:h-[60vh] xl:w-[23vw] xl:h-[58vh]"
         />
         <Product 
-            brand="High Times"
+            brand="High Times™"
             title="Mezcal"
-            descr={"Dive into the heart of tradition with High Times Mezcal, an artisanal spirit with a smoky finish, crafted from 100% agave."}
+            descr={"Dive into the heart of tradition with Mezcal, an artisanal spirit with a smoky finish, crafted from 100% agave."}
             bene1="Robust"
             bene2="Earthy"
             bene3="Authentic"
@@ -105,9 +105,9 @@ export default function Home() {
             photoSize="w-[75vw] h-[35vh] sm:h-[40vh] sm:w-[40vw] md:w-[35vw] lg:w-[45vw] lg:h-[65vh] xl:w-[35vw] xl:h-[63vh]"
         />
         <Product 
-            brand="High Times"
+            brand="High Times™"
             title="Tequila"
-            descr={"Savor the vibrant spirit of Mexico with High Times Tequila, a smooth, premium silver tequila perfect for sipping or cocktails."}
+            descr={"Savor the vibrant spirit of Mexico with a smooth, premium silver tequila perfect for sipping or cocktails."}
             bene1="Crisp"
             bene2="Lively"
             bene3="Pure"
@@ -118,9 +118,9 @@ export default function Home() {
             photoSize="w-[75vw] h-[35vh] sm:h-[40vh] sm:w-[40vw] md:w-[35vw] lg:w-[45vw] lg:h-[65vh] xl:w-[35vw] xl:h-[63vh]"
         />
         <Product 
-            brand="High Times"
+            brand="High Times™"
             title="Wine"
-            descr={"Enjoy the elegance of High Times Wine, a beautifully balanced blend that pairs perfectly with both celebration and relaxation."}
+            descr={"Enjoy the elegance of a pinot noir, a beautifully balanced blend that pairs perfectly with both celebration and relaxation."}
             bene1="Refined"
             bene2="Floral"
             bene3="Plush"
@@ -131,9 +131,9 @@ export default function Home() {
             photoSize="w-[75vw] h-[35vh] sm:h-[37vh] sm:w-[35vw] md:w-[35vw] lg:w-[40vw] lg:h-[57vh] xl:w-[30vw] xl:h-[60vh]"
         />
         <Product 
-            brand="High Times"
+            brand="High Times™"
             title="Mead"
-            descr={"Relish the rich heritage of High Times Mead, an ancient honey wine that's both sweet and complex."}
+            descr={"Relish the rich heritage of honey mead, an ancient honey wine that's both sweet and complex."}
             bene1="Golden"
             bene2="Rich"
             bene3="Traditional"

@@ -32,7 +32,7 @@ export default function Product({ brand, title, descr, bene1, bene2, bene3, bene
         <div className={`${className} max-[624px]:bg-dark-red max-[624px]:opacity-95 max-[624px]:rounded-3xl max-[624px]:shadow-xl`} style={{ marginBottom: "8vh"}}>
             <div className="title-photo-sect">
                 <div className="title-sect max-[624px]:mt-3">
-                    <h3 className="text-lg"><b>{brand}</b></h3>
+                    <h3 className="timmana-regular text-2xl"><b>{brand}</b></h3>
                     <h3 className="text-lg">{title}</h3>
                 </div>
                 <div 
@@ -43,7 +43,7 @@ export default function Product({ brand, title, descr, bene1, bene2, bene3, bene
             </div>
             <div className="info-sect">
                 <div className="title-sect-mobile">
-                    <h3 className=""><b>{brand}</b></h3>
+                    <h3 className="timmana-regular text-5xl"><b>{brand}</b></h3>
                     <h3 className="pb-5">{title}</h3>
                 </div>
                 <div className="product-descr ">
