@@ -1,0 +1,8 @@
+.textHover {
+    transition: font-size 500ms ease-in-out;
+}
+
+.textHover:hover {
+    font-size: 20px;
+}
+
