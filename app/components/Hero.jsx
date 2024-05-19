@@ -28,7 +28,9 @@ export default function Hero() {
                     Elevating lifestyles with sustainable, nature-inspired products for holistic well-being.
                 </p>
             </div>
-            <Image src="/hhubspot-hero2.webp" className="photo" alt="Nature" width={500} height={300}/>
+            <div className="photo">
+                <Image src='/hhubspot-hero2.webp' alt="Nature" fill priority sizes="(min-width: 1280px) 45vw, 75vw" />
+            </div>
         </div>
       </>
     );
