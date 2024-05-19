@@ -29,7 +29,8 @@ export default function Product({ brand, title, descr, bene1, bene2, bene3, bene
 
     let className = isAlt ? "productTitle altProductTitle xl:pr-24" : "productTitle";
     return (
-        <div className={`${className} max-[624px]:bg-dark-red max-[624px]:card max-[624px]:glass`} style={{ marginBottom: "8vh"}}>
+        <div className={`${className} mb-[15vh] lg:mb-[5vh] max-[624px]:bg-dark-red max-[624px]:card max-[624px]:glass`} >
+
             <div className="title-photo-sect">
                 <div className="title-sect max-[624px]:mt-3">
                     <h3 className="timmana-regular text-2xl"><b>{brand}</b></h3>

@@ -5,6 +5,7 @@ import Head from 'next/head';
 import Navbar from "./components/Navbar.jsx";
 import Footer from "./components/Footer.jsx";
 import Container from "./components/Container.jsx";
+import Sidebar from "./components/Sidebar.jsx";
 
 export const metadata = {
   title: "Harmony Hubspot",
@@ -20,19 +21,11 @@ export default function RootLayout({ children }) {
   return (
     <html data-theme="light" lang="en">
       <body className="flex h-[100dvh] flex-col">
-        <div>
-          <Navbar>
-            <Link href="/">
-              <span className="font-bold text-lg sm:text-xl md:text-2xl">
-                Harmony Hubspot
-              </span>
-            </Link>
-          </Navbar>
-        </div>
-        <main className="flex-1">
-            <Container>{children}</Container>
+        <Sidebar />
+        <main className="px-4 md:px-16 flex flex-1 min-h-screen flex-col items-center justify-between">
+            {children}
+            <Footer/>
         </main>
-        <Footer/>
       </body>
     </html>
   );

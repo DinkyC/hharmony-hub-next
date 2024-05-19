@@ -7,3 +7,6 @@ export { default as Divider } from './Divider.jsx';
 export { default as Form } from './Form.jsx';
 export { default as Card } from './Card.jsx';
 export { default as Stat } from './Stat.jsx';
+export { default as Pagination } from './Pagination.jsx';
+export { default as Sidebar } from './Sidebar.jsx';
+export { default as Container } from './Container.jsx';

@@ -103,13 +103,7 @@
 }
 
 
-h2 {
-    font-size: 25px;
-    margin-top: 15vh;
-    margin-bottom: 5vh;
-    text-align: center;
-    font-weight: bold;
-}
+
 
 .title-sect > h3 {
     text-align: center;
@@ -297,6 +291,7 @@ h4 {
     .photo {
        width: 75vw;
        height: 45vh;
+       margin-top: 5vh;
     }
 }
 
@@ -320,9 +315,6 @@ h4 {
         font-size: 22px;
     }
 
-    h2 {
-        font-size: 28px;
-    }
 
     h4 {
         font-size: 28px;
@@ -409,7 +401,6 @@ h4 {
     .photo {
         width: 45vw;
         height: 35vw;
-        margin: 50px;
     }
 
     .sub-text-mobile {
@@ -418,9 +409,6 @@ h4 {
 
     /* Product Section */
    
-    h2 {
-        font-size: 45px;
-    }
  
     .productTitle {
         padding-bottom: 12vh;
@@ -555,9 +543,6 @@ h4 {
         font-size: 60px;
     }
     
-    h2 {
-        font-size: 65px;
-    }
 
     .title-sect-mobile > h3 {
         font-size: 60px;
