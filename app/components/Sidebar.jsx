@@ -49,7 +49,7 @@ export default function Sidebar() {
                       </summary>
                       <ul className="p-2 bg-base-100 rounded-t-none">
                         <li><a href="/pets">Pets</a></li>
-                        <li><a href="/alcohol">Alcohol</a></li>
+                        <li><a href="/enhancers">Enhancers</a></li>
                       </ul>
                     </details>
                   </li>
@@ -70,7 +70,7 @@ export default function Sidebar() {
                   </summary>
                   <ul className="p-2 bg-base-100 rounded-t-none">
                     <li><a href="/pets">Pets</a></li>
-                    <li><a href="/alcohol">Alcohol</a></li>
+                    <li><a href="/enhancers">Enhancers</a></li>
                   </ul>
                 </details>
               </li>

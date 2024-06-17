@@ -22,11 +22,13 @@ export default function Hero() {
                 <p className="sub-text">
                     Elevating lifestyles with sustainable, nature-inspired products for holistic well-being.
                 </p>
+                <a href="#form"><button className="max-[1280px]:hidden btn btn-wide bg-dark-slate mt-10 font-bold text-lg">Contact Us Today!</button></a>
             </div>
             <div className="sub-text-mobile">
                 <p>
                     Elevating lifestyles with sustainable, nature-inspired products for holistic well-being.
                 </p>
+                <a href="#form"><button className="min-[1280px]:hidden btn btn-wide bg-dark-slate mt-10 font-bold">Contact Us Today!</button></a>
             </div>
             <div className="photo">
                 <Image src='/hhubspot-hero2.webp' alt="Nature" fill priority sizes="(min-width: 1280px) 45vw, 75vw" />

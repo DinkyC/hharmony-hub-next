@@ -71,7 +71,7 @@ export default function Form() {
     };
 
     return (
-        <form name="contact" method="POST" action="/" onSubmit={handleSubmit(onSubmission)} className="flex flex-col pb-8 lg:pb-16 sm:w-4/6">
+        <form id="form" name="contact" method="POST" action="/" onSubmit={handleSubmit(onSubmission)} className="flex flex-col pb-8 lg:pb-16 sm:w-4/6">
             <div className="flex flex-col sm:flex-row sm:w-full">
                 <div className="pb-8 sm:mr-2 sm:w-1/2">
                     <input

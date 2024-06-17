@@ -39,34 +39,34 @@ export default function Home() {
             photoSize={ogPhotoSize}
         />
         <a href="/pets"><button className="text-lg bg-dark-slate btn btn-wide glass">More Pet Products</button></a>
-      <Divider text="Alcoholic Beverages" />
+      <Divider text="Infusion Kits" />
         <Product 
             brand="High Times™"
-            title="Beer"
-            descr={"Experience the crisp refreshment of a pack of lager beer (6 pack), a craft brew with a bold hop profile and a clean finish."}
-            bene1="Bold"
-            bene2="Crisp"
-            bene3="Hoppy"
-            bene4="Refreshing"
+            title="Terpene Infusion Kit for Mezcal"
+            descr={"Enhance your mezcal with our terpene infusion kit, adding unique, aromatic flavors for a premium experience."}
+            bene1="Fruity"
+            bene2="Smokey"
+            bene3="Vivacious"
+            bene4="Aromatic"
             price="$19.99"
             isAlt={true}
-            photo="/ht-beer.png"
-            photoSize="w-[50vw] h-[35vh] sm:h-[40vh] sm:w-[30vw] md:w-[30vw] lg:w-[35vw] lg:h-[65vh] xl:w-[28vw] xl:h-[65vh]"
+            photo="/infused_mezcal_bkg.webp"
+            photoSize="w-[45vw] h-[35vh] sm:h-[35vh] sm:w-[35vw] md:w-[30vw] lg:w-[33vw] lg:h-[55vh] xl:w-[25vw] xl:h-[58vh]"
         />
         <Product 
             brand="High Times™"
-            title="Hard Cider"
-            descr={"Indulge in the crisp, fruity essence of a cold hard cider (6 pack), a refreshing beverage made from orchard-fresh apples."}
+            title="Terpene Infusion Kit for Whiskey"
+            descr={"Elevate your tequila with our terpene infusion kit, creating rich, aromatic profiles for a refined taste."}
             bene1="Crisp"
             bene2="Fruity"
             bene3="Bright"
             bene4="Juicy"
             price="$19.99"
             isAlt={false}
-            photo="/ht-hard-cider.png"
-            photoSize="w-[30vw] h-[35vh] sm:h-[35vh] sm:w-[20vw] md:w-[20vw] lg:w-[23vw] lg:h-[55vh] xl:w-[18vw] xl:h-[58vh]"
+            photo="/infused_whiskey_bkg.webp"
+            photoSize="w-[45vw] h-[35vh] sm:h-[35vh] sm:w-[35vw] md:w-[30vw] lg:w-[33vw] lg:h-[55vh] xl:w-[25vw] xl:h-[58vh]"
         />
-        <a href="/alcohol"><button className="text-lg bg-dark-slate btn btn-wide glass">More Alcoholic Beverages</button></a>
+        <a href="/enhancers"><button className="text-lg bg-dark-slate btn btn-wide glass">More Enhancer Kits</button></a>
         <Divider text="How to Buy"/>
         <Steps/>
         <Divider text="Get Hermonious!"/>
