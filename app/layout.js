@@ -11,7 +11,7 @@ export const metadata = {
   title: "Harmony Hubspot",
   description: "Find the best products to bring you harmony and peace",
   icons: {
-    icon: "/hhubspot-logo.ico",
+    icon: "/high_times_logo.ico",
     }, 
 };
 

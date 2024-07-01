@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
         <Hero />
-        <Divider text="Pet Products" />
+        <Divider text="Pet Products" /> 
         <Product 
             brand="High Times™"
             title="Calming Cat Chews"
@@ -20,7 +20,7 @@ export default function Home() {
             bene4="Enhanced Wellness"
             price="$21.99"
             isAlt={false}
-            photo="/ht-cat-chew.png"
+            photo="/ht-cat-chew.webp"
             photoSize={ogPhotoSize}
         />
         <Product 
@@ -35,11 +35,11 @@ export default function Home() {
             bene4="Enhanced Wellness"
             price="$21.99"
             isAlt={true}
-            photo="/ht-dog-chew.png"
+            photo="/ht-dog-chew.webp"
             photoSize={ogPhotoSize}
         />
         <a href="/pets"><button className="text-lg bg-dark-slate btn btn-wide glass">More Pet Products</button></a>
-      <Divider text="Infusion Kits" />
+        <Divider text="Infusion Kits" />
         <Product 
             brand="High Times™"
             title="Terpene Infusion Kit for Mezcal"
@@ -67,6 +67,34 @@ export default function Home() {
             photoSize="w-[45vw] h-[35vh] sm:h-[35vh] sm:w-[35vw] md:w-[30vw] lg:w-[33vw] lg:h-[55vh] xl:w-[25vw] xl:h-[58vh]"
         />
         <a href="/enhancers"><button className="text-lg bg-dark-slate btn btn-wide glass">More Enhancer Kits</button></a>
+        <Divider text="Alcoholic Beverages" />
+        <Product 
+            brand="High Times™"
+            title="Mezcal"
+            descr={"Discover the rich, smoky essence of our handcrafted mezcal, crafted from the finest agave for an authentic and unforgettable taste experience."}
+            bene1="Floral"
+            bene2="Citrusy"
+            bene3="Jalapeno"
+            bene4="Aromatic"
+            price="$30.99"
+            isAlt={true}
+            photo="/ht-mezcal-hero.webp"
+            photoSize="w-auto h-[35vh] sm:h-[35vh] lg:h-[55vh] xl:h-[58vh]"
+        />
+        <Product 
+            brand="High Times™"
+            title="Lager (12 Pack)"
+            descr={"Experience the crisp, refreshing taste of our premium lager beer, brewed to perfection for your ultimate enjoyment."}
+            bene1="Crisp"
+            bene2="Mellow"
+            bene3="Malty"
+            bene4="Refreshing"
+            price="$15.99"
+            isAlt={false}
+            photo="/ht-beer.webp"
+            photoSize="w-auto h-[35vh] sm:h-[35vh]  lg:h-[55vh]  xl:h-[58vh]"
+        />
+        <a href="/alcohol"><button className="text-lg bg-dark-slate btn btn-wide glass">More Alcoholic Beverages</button></a>
         <Divider text="How to Buy"/>
         <Steps/>
         <Divider text="Get Hermonious!"/>

@@ -10,3 +10,5 @@ export { default as Stat } from './Stat.jsx';
 export { default as Pagination } from './Pagination.jsx';
 export { default as Sidebar } from './Sidebar.jsx';
 export { default as Container } from './Container.jsx';
+export { default as Licensables } from './Licensables.jsx';
+export { default as FeatureList } from './FeatureList.jsx';

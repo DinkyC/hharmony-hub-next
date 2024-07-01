@@ -16,8 +16,8 @@ export default function Pets() {
                    <Card 
                     title="Cat Chews"
                     desc={"Crafted specifically for cats to provide a natural and holistic approach to their well-being."}
-                    photo="/ht-cat-chew.png"
-                    PhotoSize="lg:h-[45vh] lg:w-[25vw]"
+                    photo="/ht-cat-chew.webp"
+                    PhotoSize="lg:h-[45vh] w-auto"
                     alt="cat chews"
                     >
                         <Stat value="$21.99" title="Price" />
@@ -26,8 +26,8 @@ export default function Pets() {
                     title="Dog Chews"
                     desc={"Crafted specifically for dogs to provide a natural and holistic approach to their well-being."}
 
-                    photo="/ht-dog-chew.png"
-                    PhotoSize="lg:h-[45vh] lg:w-[25vw]"
+                    photo="/ht-dog-chew.webp"
+                    PhotoSize="lg:h-[45vh] w-auto"
                     alt="dog chews"
                     >
                         <Stat value="$21.99" title="Price" />
@@ -36,8 +36,8 @@ export default function Pets() {
                     title="Catnip"
                     desc={"Indulge your cat with this premium Catnip, crafted from the finest, all-natural herbs for a truly 'elevated' experience."}
 
-                    photo="/ht-catnip.png"
-                    PhotoSize="pt-2 h-[40vh] w-[60vw] md:h-[50vh] md:w-[45vw] lg:h-[40vh] lg:w-[20vw]"
+                    photo="/ht-catnip.webp"
+                    PhotoSize="pt-2 h-[40vh] w-auto md:h-[50vh] lg:h-[40vh]"
                     alt="catnip"
                     >
                         <Stat classNames="" value="$11.99" title="Price" />

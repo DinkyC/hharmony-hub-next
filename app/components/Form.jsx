@@ -71,7 +71,7 @@ export default function Form() {
     };
 
     return (
-        <form id="form" name="contact" method="POST" action="/" onSubmit={handleSubmit(onSubmission)} className="flex flex-col pb-8 lg:pb-16 sm:w-4/6">
+        <form id="form" name="contact" method="POST" action="/" onSubmit={handleSubmit(onSubmission)} className="flex flex-col pb-20 sm:w-4/6">
             <div className="flex flex-col sm:flex-row sm:w-full">
                 <div className="pb-8 sm:mr-2 sm:w-1/2">
                     <input
@@ -111,14 +111,16 @@ export default function Form() {
                             <option value="High Times Catnip ($11.99)">High Times Catnip ($11.99)</option>
                             <option value="High Times Dog Chew ($21.99)">High Times Dog Chew ($21.99)</option>
                             <option value="High Times Cat Chew ($21.99)">High Times Cat Chew ($21.99)</option>
-                            <option value="High Times Beer ($19.99)">High Times Beer ($19.99)</option>
+                            <option value="High Times Beer ($15.99)">High Times Beer ($15.99)</option>
                             <option value="High Times Hard Cider ($19.99)">High Times Hard Cider ($19.99)</option>
                             <option value="High Times Liqueur($25.99)">High Times Liqueur ($25.99)</option>
-                            <option value="High Times Mezcal ($39.99)">High Times Mezcal ($39.99)</option>
+                            <option value="High Times Mezcal ($30.99)">High Times Mezcal ($39.99)</option>
                             <option value="High Times Tequila ($49.99)">High Times Tequila ($49.99)</option>
                             <option value="High Times Wine ($15.99)">High Times Wine ($15.99)</option>
-                            <option value="High Times Mead ($19.99)">High Times Mead ($19.99)</option>
-
+                            <option value="Terpene Infusion Kit for Mezcal ($19.99)">Terpene Infusion Kit for Mezcal ($19.99)</option>
+                            <option value="Terpene Infusion Kit for Whiskey ($19.99)">Terpene Infusion Kit for Whiskey ($19.99)</option>
+                            <option value="Terpene Infusion Kit for Vodka ($19.99)">Terpene Infusion Kit for Vodka ($19.99)</option>
+                            <option value="Terpene Infusion Kit for Tequila ($19.99)">Terpene Infusion Kit for Tequila ($19.99)</option>
                     </select>
                     {errors.product && (
                         <div className="text-red-500">{errors.product.message}</div>

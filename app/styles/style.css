@@ -1,12 +1,5 @@
 
 
-.logo {
-    width: 10vw;
-    height: 5vh;
-    color: white;
-}
-
-
 
 .headerSect > span {
     font-weight: bold;
@@ -39,16 +32,11 @@
 }
 
 .photo {
-    grid-area: photo;
     position: absolute;
     right: -100vw;
     transition: right 1.5s ease;
-    width: 75vw;
-    height: 25vh;
     margin: 0 auto;
-    color: white;
     margin-bottom: 5vh;
-    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.7);
 }
 
 .photo-visible {
@@ -92,14 +80,6 @@
 
 .productPhoto {
    grid-area: productPhoto;
-   /* width: 65vw;  */
-   /* height: 35vh; */
-   /* margin: 0 auto; */
-   /* color: white; */
-   /* margin-bottom: 1vh; */
-   /* margin-top: 3vh; */
-   /* border-radius: 25% 10%; */
-   /* box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.7); */
 }
 
 
@@ -257,15 +237,6 @@ h4 {
 
 @media screen and (min-width: 700px) { 
 
-    .logo {
-        width: 5vw;
-        height: 5vh;
-    }
-
-    /* .productPhoto { */
-    /*    height: 55vh;  */
-    /* } */
-
     .circle-text {
         text-align: center;
         padding-top: 2vh;
@@ -343,21 +314,12 @@ h4 {
 }
 
 @media screen and (min-width: 900px) {
-      .logo {
-        width: 4vw;
-        height: 6vh;
-        }
-      
       .circle-text {
         font-size: 20px;
       }
 }
 
 @media screen and (min-width: 1000px) {
-    /* .productPhoto { */
-    /*     width: 55vw; */
-    /* } */
-    /**/
     .circle > span {
         font-size: 35px;
     }
@@ -526,9 +488,6 @@ h4 {
 }
 
 @media screen and (min-width: 1500px) {
-    .logo {
-        width: 3vw;
-    }
     .circle > span {
         font-size: 45px;
     }

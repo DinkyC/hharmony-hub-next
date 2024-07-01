@@ -1,39 +1,47 @@
 "use client";
 import Image from "next/image";
 import React, { useEffect } from 'react';
+import { useInView } from 'react-intersection-observer';
 
 export default function Hero() {
-
-    useEffect(() => {
-      let photos = document.getElementsByClassName("photo");
-      for (let i = 0; i < photos.length; i++) {
-        photos[i].classList.add("photo-visible");
-      }
-    }, []);
-
+    const { ref, inView } = useInView({
+        threshold: 0.60,
+        triggerOnce: true
+    });
 
     return (
-      <>
-        <div className="sect-1">
-            <div className="subsect-1">
-                <h1 className="m-0">
-                    Balancing Life&rsquo;s Essentials, Naturally.
-                </h1>
-                <p className="sub-text">
-                    Elevating lifestyles with sustainable, nature-inspired products for holistic well-being.
-                </p>
-                <a href="#form"><button className="max-[1280px]:hidden btn btn-wide bg-dark-slate mt-10 font-bold text-lg">Contact Us Today!</button></a>
+        <div ref={ref} className="py-20 lg:py-0 hero min-h-screen">
+          <div className="hero-content flex-col lg:flex-row-reverse">
+            <div 
+                className={`transition-opacity duration-2500 ${inView ? 'opacity-100' : 'opacity-0'} flex justify-center items-center lg:w-3/5 2xl:w-3/6 shadow-2xl bg-dark-red glass rounded-xl`}
+                style={{ transitionDelay: `0.1s` }}
+            >
+                <Image
+                  priority={true}
+                  width={500}
+                  height={500}
+                  alt="Mezcal bottle"
+                  src="/ht-mezcal-hero.webp"
+                  className={`transition-opacity duration-2500 ${inView ? 'opacity-100' : 'opacity-0'} lg:h-[60vh] w-auto`}
+                  style={{ transitionDelay: `0.2s` }}
+                />
+             </div>
+            <div className="lg:mr-10 text-center lg:w-3/5 2xl:w-2/5 2xl:mr-28 lg:text-start">
+              <h1 
+                className={`transition-opacity duration-2500 ${inView ? 'opacity-100' : 'opacity-0'} py-6 text-3xl sm:text-5xl font-bold leading-relaxed`}
+                style={{ transitionDelay: `0.4s` }}
+                >
+                High Times Products!
+              </h1>
+              <p 
+                className={`transition-opacity duration-2500 ${inView ? 'opacity-100' : 'opacity-0'} leading-loose py-6 lg:py-14`}
+                style={{ transitionDelay: `0.6s` }}
+                >
+                Discover High Times branded products like you&apos;ve never seen them before, offering an unparalleled mix of quirky charm and wholesome goodness for your ultimate chill.
+              </p>
+              <a href="#form"><button className="text-lg bg-red-400 hover:bg-red-600 hover:text-white btn btn-wide glass">Contact Us</button></a>
             </div>
-            <div className="sub-text-mobile">
-                <p>
-                    Elevating lifestyles with sustainable, nature-inspired products for holistic well-being.
-                </p>
-                <a href="#form"><button className="min-[1280px]:hidden btn btn-wide bg-dark-slate mt-10 font-bold">Contact Us Today!</button></a>
-            </div>
-            <div className="photo">
-                <Image src='/hhubspot-hero2.webp' alt="Nature" fill priority sizes="(min-width: 1280px) 45vw, 75vw" />
-            </div>
+          </div>
         </div>
-      </>
     );
 }
