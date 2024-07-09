@@ -31,6 +31,16 @@ export default function Alcohol() {
                         <Stat value="$15.99" title="Price" />
                    </Card>
                  <Card 
+                    title="Mead"
+                    desc={"Sweet, delicious and refreshing mead derived from the freshest apple trees on the East Coast."}
+
+                    photo="/ht-mead.webp"
+                    PhotoSize="h-[35vh] w-auto sm:h-[45vh] md:h-[55vh] lg:h-[45vh]"
+                    alt="lager bottle"
+                    >
+                        <Stat value="$25.99" title="Price" />
+                   </Card>
+                 <Card 
                     title="Tequila"
                     desc={"Discover our premium tequila selection, crafted to elevate your taste experience."}
 
