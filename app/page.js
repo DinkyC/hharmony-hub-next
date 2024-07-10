@@ -27,7 +27,7 @@ export default function Home() {
             brand="High Times™"
             title="Calming Dog Chews"
             descr={"Crafted specifically for dogs to provide a natural and holistic approach to their well-being. " + 
-                    "these chews offer a delicious and calming experience, " + 
+                    "These chews offer a delicious and calming experience, " + 
                     "promoting relaxation and overall health for your furry friend."}
             bene1="Calming Effect"
             bene2="Natual Ingredients"
@@ -56,7 +56,7 @@ export default function Home() {
         <Product 
             brand="High Times™"
             title="Terpene Infusion Kit for Whiskey"
-            descr={"Elevate your tequila with our terpene infusion kit, creating rich, aromatic profiles for a refined taste."}
+            descr={"Elevate your whiskey with our terpene infusion kit, creating rich, aromatic profiles for a refined taste."}
             bene1="Crisp"
             bene2="Fruity"
             bene3="Bright"
