@@ -108,6 +108,8 @@ export default function Form() {
                         value={selectedProduct} 
                         onChange={handleProductChange}>
                             <option value="" disabled>Products</option>
+                            <option value="High Times Cat Food ($49.99)">High Times Cat Food ($49.99)</option>
+                            <option value="High Times Dog Food ($49.99)">High Times Dog Food ($49.99)</option>
                             <option value="High Times Catnip ($11.99)">High Times Catnip ($11.99)</option>
                             <option value="High Times Dog Chew ($21.99)">High Times Dog Chew ($21.99)</option>
                             <option value="High Times Cat Chew ($21.99)">High Times Cat Chew ($21.99)</option>

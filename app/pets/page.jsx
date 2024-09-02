@@ -42,6 +42,26 @@ export default function Pets() {
                     >
                         <Stat classNames="" value="$11.99" title="Price" />
                    </Card>
+                 <Card 
+                    title="Cat Food"
+                    desc={"Expertly formulated for cats, our recipe offers a natural and balanced approach to enhancing your cats health."}
+
+                    photo="/ht_cat_food_no_bg.avif"
+                    PhotoSize="lg:h-[45vh] w-auto"
+                    alt="cat food"
+                    >
+                        <Stat value="$49.99" title="Price" />
+                   </Card>
+                 <Card 
+                    title="Dog Food"
+                    desc={"Expertly crafted for dogs, our formula provides a natural and balanced approach to boosting your dog's health."}
+
+                    photo="/ht_dog_food.avif"
+                    PhotoSize="lg:h-[45vh] w-auto"
+                    alt="dog food"
+                    >
+                        <Stat value="$49.99" title="Price" />
+                   </Card>
                 </Container>
                 <Pagination page={1} classNames="mt-10" />
             </section>
