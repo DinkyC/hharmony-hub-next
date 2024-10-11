@@ -1,6 +1,4 @@
-import Image from "next/image";
-import styles from './styles/style.css';
-import { Container, Form, Steps, Product, Hero, Divider } from "./components";
+import { Form, Steps, Product, Hero, Divider } from "./components";
 
 export default function Home() {
   let ogPhotoSize = "w-[65vw] h-[35vh] sm:h-[55vh] lg:w-[70vw] lg:h-[75vh] xl:w-[45vw] xl:h-[75vh]"
@@ -95,6 +93,34 @@ export default function Home() {
             photoSize="w-auto h-[35vh] sm:h-[35vh]  lg:h-[55vh]  xl:h-[58vh]"
         />
         <a href="/alcohol"><button className="text-lg bg-dark-slate btn btn-wide glass">More Alcoholic Beverages</button></a>
+        <Divider text="Smoking Products" />
+        <Product 
+            brand="High Times™"
+            title="Ashtray"
+            descr={"This ashtray combines sleek design with rugged durability, providing a stylish and practical solution for effortless ash disposal"}
+            bene1="Functional"
+            bene2="Resilient"
+            bene3="Iconic"
+            bene4="Premium"
+            price="$10.99"
+            isAlt={false}
+            photo="/ht_ashtray.webp"
+            photoSize="w-auto h-[35vh] sm:h-[35vh]  lg:h-[55vh]  xl:h-[58vh]"
+        />
+        <Product 
+            brand="High Times™"
+            title="Lighter"
+            descr={"This lighter blends rugged durability with a sleek, modern design, delivering a reliable and stylish tool that elevates every smoking moment."}
+            bene1="Durable"
+            bene2="Sleek"
+            bene3="Reliable"
+            bene4="Stylish"
+            price="$2.99"
+            isAlt={true}
+            photo="/ht_lighter.webp"
+            photoSize="w-auto h-[35vh] sm:h-[35vh]  lg:h-[55vh]  xl:h-[58vh]"
+        />
+        <a href="/smoking"><button className="text-lg bg-dark-slate btn btn-wide glass">More Smoking Products</button></a>
         <Divider text="How to Buy"/>
         <Steps/>
         <Divider text="Get Hermonious!"/>

@@ -1,10 +1,9 @@
 'use client';
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
-import { useForm, SubmitHandler } from "react-hook-form";
-import React, { useEffect, useState, setState } from 'react';
+import { useForm } from "react-hook-form";
+import React, { useEffect, useState } from 'react';
 import Counter from './Counter.jsx';
-import { useRouter } from 'next/navigation';
 
 const schema = z.object({
     email: z.string().email(),
@@ -13,17 +12,14 @@ const schema = z.object({
     count: z.string(),
 });
 
-const FormFields = z.infer;
-
 export default function Form() {
 
     const {
         reset,
         handleSubmit,
         register,
-        setError,
         formState,
-        formState: { errors, isSubmitting, isSubmitSuccessful },
+        formState: { errors, isSubmitting },
       } = useForm({
         resolver: zodResolver(schema),
 
@@ -123,6 +119,13 @@ export default function Form() {
                             <option value="Terpene Infusion Kit for Whiskey ($19.99)">Terpene Infusion Kit for Whiskey ($19.99)</option>
                             <option value="Terpene Infusion Kit for Vodka ($19.99)">Terpene Infusion Kit for Vodka ($19.99)</option>
                             <option value="Terpene Infusion Kit for Tequila ($19.99)">Terpene Infusion Kit for Tequila ($19.99)</option>
+                            <option value="High Times Lighter ($2.99)">High Times Lighter ($2.99)</option>
+                            <option value="High Times Ashtray ($14.99)">High Times Ashtray ($14.99)</option>
+                            <option value="High Times Matches ($1.99)">High Times Matches ($1.99)</option>
+                            <option value="High Times Rolling Papers ($19.99)">High Times Rolling Papers ($19.99)</option>
+                            <option value="High Times Smoking Blend ($19.99)">High Times Smoking Blend ($19.99)</option>
+                            <option value="High Times Rolling Tray ($19.99)">High Times Rolling Tray ($19.99)</option>
+                            <option value="High Times Grinder ($29.99)">High Times Grinder ($29.99)</option>
                     </select>
                     {errors.product && (
                         <div className="text-red-500">{errors.product.message}</div>

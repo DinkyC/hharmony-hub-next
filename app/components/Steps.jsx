@@ -2,8 +2,9 @@
 import { useInView } from 'react-intersection-observer';
 
 export default function Steps() {
-  const { ref, inView, entry } = useInView({
+  const { ref, inView } = useInView({
     threshold: 0,
+    triggerOnce: true,
   });
 
     return (
