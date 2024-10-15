@@ -9,7 +9,9 @@ export default function Smoking() {
           <p className="my-4 mx-9 font-medium leading-8">
             Explore our diverse range of unique smoking products across various
             categories. We aim to provide you with the premium tools and
-            accessories you need to enhance your smoking experience.
+            accessories you need to enhance your smoking experience. All
+            products are solely derived from hemp and contain less than 0.3%
+            THC.
           </p>
         </div>
         <Container classNames="grid grid-cols-1 lg:grid-cols-2 content-center items-center justify-items-center justify-evenly pt-4">
@@ -91,7 +93,7 @@ export default function Smoking() {
             <Stat value="$29.99" title="Price" />
           </Card>
           <Card
-            title="Smoking Wicks"
+            title="Hemp Smoking Wicks"
             desc={
               "A clean, slow burn with all-natural fibers, enhancing every smoking session with a smooth, chemical-free experience."
             }
@@ -135,7 +137,18 @@ export default function Smoking() {
             <Stat value="$30.99" title="Price" />
           </Card>
           <Card
-            title="Vape"
+            title="Electric Hookah"
+            desc={
+              "Modern design with premium functionality, delivering rich, flavorful clouds for a refined and social smoking experience"
+            }
+            photo="/ht_hookah.webp"
+            PhotoSize="lg:h-[40vh] w-auto"
+            alt="hookah"
+          >
+            <Stat value="$30.99" title="Price" />
+          </Card>
+          <Card
+            title="Heated Vaporizer"
             desc={
               "Sleek design and advanced technology, delivering smooth, flavorful draws for an elevated, on-the-go vaping experience."
             }
@@ -146,7 +159,7 @@ export default function Smoking() {
             <Stat value="$24.99" title="Price" />
           </Card>
           <Card
-            title="Vape Pen"
+            title="Heated Vaporizer Pen"
             desc={
               "Innovative technology with ergonomic design, providing smooth, flavorful hits for a premium vaping experience anytime, anywhere."
             }
