@@ -82,6 +82,9 @@ export default function Sidebar() {
                     <li>
                       <a href="/smoking">Smoking Products</a>
                     </li>
+                    <li>
+                      <a href="/confectionary">Confectionary</a>
+                    </li>
                   </ul>
                 </details>
               </li>
@@ -115,6 +118,9 @@ export default function Sidebar() {
                 </li>
                 <li>
                   <a href="/smoking">Smoking Products</a>
+                </li>
+                <li>
+                  <a href="/confectionary">Confectionary</a>
                 </li>
               </ul>
             </details>

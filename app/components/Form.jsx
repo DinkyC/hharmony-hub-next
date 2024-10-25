@@ -126,6 +126,20 @@ export default function Form() {
                             <option value="High Times Smoking Blend ($19.99)">High Times Smoking Blend ($19.99)</option>
                             <option value="High Times Rolling Tray ($19.99)">High Times Rolling Tray ($19.99)</option>
                             <option value="High Times Grinder ($29.99)">High Times Grinder ($29.99)</option>
+                            <option value="High Times Brownie Bites ($5.99)">High Times Brownie Bites ($5.99)</option>
+                            <option value="High Times Chocolate ($2.99)">High Times Chocolate ($2.99)</option>
+                            <option value="High Times Coffee ($9.99)">High Times Coffee ($9.99)</option>
+                            <option value="High Times Chocolate Chip Cookies ($12.99)">High Times Chocolate Chip Cookies ($12.99)</option>
+                            <option value="High Times Herbal Infusion ($3.99)">High Times Herbal Infusion ($3.99)</option>
+                            <option value="High Times Honey ($1.99)">High Times Honey ($1.99)</option>
+                            <option value="High Times Lollipops ($1.99)">High Times Lollipops ($1.99)</option>
+                            <option value="High Times Noodles ($1.99)">High Times Noodles ($1.99)</option>
+                            <option value="High Times Pancakes ($9.99)">High Times Pancakes ($9.99)</option>
+                            <option value="High Times Pizza ($9.99)">High Times Pizza ($9.99)</option>
+                            <option value="High Times Hot Sauce ($4.99)">High Times Hot Sauce ($4.99)</option>
+                            <option value="High Times Maple Syrup ($4.99)">High Times Maple Syrup ($4.99)</option>
+                            <option value="High Times Green Tea ($3.99)">High Times Green Tea ($3.99)</option>
+                            <option value="High Times Waffles ($19.99)">High Times Waffles ($19.99)</option>
                     </select>
                     {errors.product && (
                         <div className="text-red-500">{errors.product.message}</div>
