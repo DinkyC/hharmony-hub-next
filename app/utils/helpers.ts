@@ -1,9 +1,14 @@
 'use client';
 import { useState, useEffect, useCallback } from "react";
 
-export function useTyping({ text, delay }) {
-    const [word, setWord] = useState('');
-    const [index, setIndex] = useState(0);
+interface TextProps {
+    text: string,
+    delay: number
+}
+
+export function useTyping({ text, delay }: TextProps) {
+    const [word, setWord] = useState<string>('');
+    const [index, setIndex] = useState<number>(0);
 
     const typeNextChar = useCallback(() => {
         setWord(prevWord => prevWord + text[index]);

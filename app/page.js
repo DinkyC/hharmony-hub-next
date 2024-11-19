@@ -187,7 +187,43 @@ export default function Home() {
       />
       <a href="/confectionary">
         <button className="text-lg bg-dark-slate btn btn-wide glass">
-          More Sweets 
+          More Sweets
+        </button>
+      </a>
+      <Divider text="Skincare" />
+      <Product
+        brand="High Times™"
+        title="Skincare Pack"
+        descr={
+          "A skincare line enriched with antioxidants and CBD, designed for hydration and rejuvenation. Includes: face wash, moisturizer and hand and body lotion."
+        }
+        bene1="Hydrating"
+        bene2="Rejuvinating"
+        bene3="Antioxidant-rich"
+        bene4="CBD-infused"
+        price="$19.99"
+        isAlt={false}
+        photo="/ht_skincare_pack.webp"
+        photoSize="w-auto h-[35vh] sm:h-[35vh]  lg:h-[55vh]  xl:h-[58vh]"
+      />
+      <Product
+        brand="High Times™"
+        title="Sunscreen"
+        descr={
+          "A CBD-infused sunscreen offering superior sun protection while nourishing your skin."
+        }
+        bene1="Protective"
+        bene2="Nourishing"
+        bene3="CBD-infused"
+        bene4="Sun-safe"
+        price="$8.99"
+        isAlt={true}
+        photo="/ht_sunscreen.webp"
+        photoSize="w-auto h-[35vh] sm:h-[35vh]  lg:h-[55vh]  xl:h-[58vh]"
+      />
+      <a href="/skincare">
+        <button className="text-lg bg-dark-slate btn btn-wide glass">
+          More Skincare Products 
         </button>
       </a>
       <Divider text="How to Buy" />

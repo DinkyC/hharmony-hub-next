@@ -1,5 +1,4 @@
-import Container from "@/app/components/Container";
-import { Card, Stat, Pagination } from "@/app/components";
+import { Card, Stat, Pagination, Container } from "@/app/components";
 
 export default function Pets() {
   return (

@@ -85,6 +85,9 @@ export default function Sidebar() {
                     <li>
                       <a href="/confectionary">Confectionary</a>
                     </li>
+                    <li>
+                      <a href="/skincare">Skincare</a>
+                    </li>
                   </ul>
                 </details>
               </li>
@@ -121,6 +124,9 @@ export default function Sidebar() {
                 </li>
                 <li>
                   <a href="/confectionary">Confectionary</a>
+                </li>
+                <li>
+                  <a href="/skincare">Skincare</a>
                 </li>
               </ul>
             </details>

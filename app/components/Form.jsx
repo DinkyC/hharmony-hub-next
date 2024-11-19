@@ -140,6 +140,9 @@ export default function Form() {
                             <option value="High Times Maple Syrup ($4.99)">High Times Maple Syrup ($4.99)</option>
                             <option value="High Times Green Tea ($3.99)">High Times Green Tea ($3.99)</option>
                             <option value="High Times Waffles ($19.99)">High Times Waffles ($19.99)</option>
+                            <option value="High Times Skincare Pack ($19.99)">High Times Skincare Pack ($19.99)</option>
+                            <option value="High Times Sunscreen ($8.99)">High Times Sunscreen ($8.99)</option>
+                            <option value="High Times Tattoo Cream ($9.99)">High Times Tattoo Cream ($9.99)</option>
                     </select>
                     {errors.product && (
                         <div className="text-red-500">{errors.product.message}</div>
