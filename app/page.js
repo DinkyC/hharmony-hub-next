@@ -47,10 +47,11 @@ export default async function Home() {
                       category={cat.category.toLowerCase().replace(/\s+/g, "_")}
                     />
                     <Link
+                      key={index}
                       href={`/category/${cat.category.toLowerCase().replace(/\s+/g, "_")}`}
                       className="text-lg bg-dark-slate btn w-[300px] glass"
                     >
-                      <button>More {cat.category}</button>
+                      <button key={index}>More {cat.category}</button>
                     </Link>
                   </>
                 );

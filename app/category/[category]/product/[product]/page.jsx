@@ -1,6 +1,7 @@
 import { Permanent_Marker } from "next/font/google";
 import { BuyNow, Accordian } from "../../../../components";
 import { lookUpByProduct } from "../../../../utils/actions";
+import { notFound } from "next/navigation";
 const permanentMarker = Permanent_Marker({
   weight: "400",
   subsets: ["latin"],
@@ -10,6 +11,9 @@ export default async function ProductPage({ params }) {
   const prod = decodeURIComponent(params.product);
   const category = decodeURIComponent(params.category);
   const product = await lookUpByProduct(prod, category);
+  if (product == null) {
+      notFound()
+  }
   return (
     <section className="flex flex-col items-center justify-center py-12">
       <div className="grid grid-cols-1 lg:grid-cols-2 w-screen p-[5vw] place-items-center">

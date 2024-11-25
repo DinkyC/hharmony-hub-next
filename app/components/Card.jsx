@@ -11,13 +11,10 @@ export default function Card({ category, price, title, desc }) {
     .replace(/\b\w/g, (char) => char.toLowerCase())
     .replaceAll(" ", "_");
 
-
   return (
     <div className="card mt-10 w-[22rem] lg:w-[30vw] h-[60vh] glass bg-dark-red">
       <div className="flex flex-col justify-center items-center">
-        <h1
-          className={`${permanentMarker.className} py-4 text-5xl`}
-        >
+        <h1 className={`${permanentMarker.className} py-4 text-5xl`}>
           High Times<sup className="p-1 text-[1.5rem]">™</sup>
         </h1>
 
@@ -31,7 +28,7 @@ export default function Card({ category, price, title, desc }) {
           <span className="pb-2 text-2xl font-bold">{price}</span>
           <Link
             className="btn w-full bg-red-400 text-white text-lg hover:bg-red-700"
-            href={`/category/${category}/product/${slug}`}
+            href={`/category/${encodeURIComponent(category)}/product/${encodeURIComponent(slug)}`}
           >
             <button>See Product</button>
           </Link>
