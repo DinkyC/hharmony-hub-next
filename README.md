@@ -1,5 +1,4 @@
-
-## To Run Developement Server 
+## To Run Developement Server
 
 First, run the development server:
 
@@ -15,11 +14,15 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## TODO 
+## TODO
 
-1. Add new logo
-2. Change out name to new domain name
-3. Add about page
-4. Add about section on home page
-5. Add back all alcoholic beverages
+1. Home page - DONE
+- Remove images
+- Place title in center
 
+2. Add Buy Now Button
+- Place on home page products - DONE
+- Create product page - DONE
+- Impliment purchasing with Stripe
+
+3. Add Checkout Cart

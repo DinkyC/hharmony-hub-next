@@ -1,0 +1,726 @@
+[
+  {
+    "category": "Non-Alcoholic Beverages",
+    "products": [
+      {
+        "title": "Premium Seltzer Water",
+        "slug": "premium_seltzer_water",
+        "tagline": "Pure hydration with a refreshing fizz.",
+        "price": "$6.99",
+        "description": "Crisp, clean, and naturally carbonated, this seltzer water is perfect for staying hydrated or mixing with your favorite beverages. Zero calories, zero sugar, and 100% refreshing.",
+        "dimensions": "9\" x 6\" x 5\" (6-pack carrier)",
+        "weight": "7.0 lbs (shipping weight)",
+        "quantity": "Pack of 6, 12 oz cans",
+        "benefits": "Hydrating, Refreshing, Zero-calorie, Natural"
+      },
+      {
+        "title": "Flavored Sparkling Water",
+        "slug": "flavored_sparkling_water",
+        "tagline": "Effervescent flavor for any moment.",
+        "price": "$7.99",
+        "description": "Lightly flavored with hints of lemon, berry, or tropical fruits, this sparkling water is naturally carbonated and free from artificial sweeteners. Perfect for every occasion.",
+        "dimensions": "9\" x 6\" x 5\" (6-pack carrier)",
+        "weight": "7.0 lbs (shipping weight)",
+        "quantity": "Pack of 6, 12 oz cans",
+        "benefits": "Flavored, Refreshing, Natural, Sugar-free"
+      },
+      {
+        "title": "Classic Cola Soda",
+        "slug": "classic_cola_soda",
+        "tagline": "The timeless taste you love.",
+        "price": "$6.49",
+        "description": "This rich and bubbly cola offers a perfect balance of sweetness and fizz. Enjoy it ice cold or as a base for classic cocktails.",
+        "dimensions": "9\" x 6\" x 5\" (6-pack carrier)",
+        "weight": "7.5 lbs (shipping weight)",
+        "quantity": "Pack of 6, 12 oz cans",
+        "benefits": "Classic, Bubbly, Sweet, Versatile"
+      },
+      {
+        "title": "Assorted Soda Variety Pack",
+        "slug": "assorted_soda_variety_pack",
+        "tagline": "A refreshing selection for everyone.",
+        "price": "$12.99",
+        "description": "Featuring a mix of cola, lemon-lime, and root beer, this soda pack offers something for everyone. Perfect for parties or stocking your fridge.",
+        "dimensions": "12\" x 8\" x 6\" (12-pack carton)",
+        "weight": "15.0 lbs (shipping weight)",
+        "quantity": "12-pack, 12 oz cans",
+        "benefits": "Variety, Convenient, Refreshing, Party-friendly"
+      },
+      {
+        "title": "High-Performance Energy Drink",
+        "slug": "high-performance_energy_drink",
+        "tagline": "Fuel your day with bold energy.",
+        "price": "$19.99",
+        "description": "Packed with caffeine, B vitamins, and taurine, this energy drink delivers the boost you need to power through your day. Choose from a variety of invigorating flavors.",
+        "dimensions": "11\" x 8\" x 6\" (12-pack carton)",
+        "weight": "10.5 lbs (shipping weight)",
+        "quantity": "Pack of 12, 8.4 oz cans",
+        "benefits": "Energizing, Flavorful, Vitamin-rich, Invigorating"
+      },
+      {
+        "title": "Electrolyte Sports Drink",
+        "slug": "electrolyte_sports_drink",
+        "tagline": "Hydration to keep you in the game.",
+        "price": "$14.99",
+        "description": "Rehydrate and replenish with this refreshing sports drink loaded with electrolytes and essential nutrients. Perfect for post-workout recovery.",
+        "dimensions": "10\" x 7\" x 8\" (6-pack carrier)",
+        "weight": "9.0 lbs (shipping weight)",
+        "quantity": "6-pack of 16.9 oz bottles",
+        "benefits": "Hydrating, Replenishing, Nutrient-rich, Recovery"
+      },
+      {
+        "title": "Ready-to-Drink Non-Alcoholic Cocktails",
+        "slug": "ready-to-drink_non-alcoholic_cocktails",
+        "tagline": "Cocktail hour, no alcohol required.",
+        "price": "$15.99",
+        "description": "Enjoy the sophisticated taste of classic cocktails like mojitos, margaritas, and cosmopolitans—without the alcohol. Perfect for any celebration.",
+        "dimensions": "6\" x 6\" x 5\" (4-pack carrier)",
+        "weight": "6.0 lbs (shipping weight)",
+        "quantity": "4-pack of 12 oz cans",
+        "benefits": "Non-alcoholic, Flavorful, Convenient, Sophisticated"
+      },
+      {
+        "title": "Classic Cocktail Mixers Set",
+        "slug": "classic_cocktail_mixers_set",
+        "tagline": "Mix your favorites effortlessly.",
+        "price": "$24.99",
+        "description": "This set includes mixers for margaritas, bloody marys, and piña coladas. Made with natural ingredients, they deliver vibrant flavors for easy entertaining.",
+        "dimensions": "9\" x 6\" x 5\" (3-bottle carton)",
+        "weight": "5.5 lbs (shipping weight)",
+        "quantity": "3 bottles, 16 oz each",
+        "benefits": "Mixers, Flavorful, Natural, Entertaining"
+      },
+      {
+        "title": "Fresh-Squeezed Lemonade",
+        "slug": "fresh-squeezed_lemonade",
+        "tagline": "Refreshingly tart and sweet.",
+        "price": "$5.99",
+        "description": "Made with real lemons and pure cane sugar, this lemonade is the perfect balance of sweet and tangy. Serve chilled for ultimate refreshment.",
+        "dimensions": "10\" x 3\" x 3\" bottle",
+        "weight": "2.5 lbs (shipping weight)",
+        "quantity": "1-liter bottle",
+        "benefits": "Refreshing, Natural, Sweet, Tangy"
+      },
+      {
+        "title": "Spicy Ginger Beer",
+        "slug": "spicy_ginger_beer",
+        "tagline": "Bold and bubbly with a kick.",
+        "price": "$9.99",
+        "description": "This non-alcoholic ginger beer packs a punch with its zesty, spicy flavor. Perfect for Moscow mules or enjoying on its own.",
+        "dimensions": "6\" x 6\" x 5\" (4-pack carrier)",
+        "weight": "5.0 lbs (shipping weight)",
+        "quantity": "Pack of 4, 12 oz bottles",
+        "benefits": "Spicy, Non-alcoholic, Flavorful, Versatile"
+      },
+      {
+        "title": "Fruit & Veggie Smoothies",
+        "slug": "fruit_&_veggie_smoothies",
+        "tagline": "A delicious boost of goodness.",
+        "price": "$4.99",
+        "description": "Packed with real fruits and veggies, this smoothie is a healthy, convenient option for busy mornings or on-the-go snacking. No added sugar or artificial ingredients.",
+        "dimensions": "8\" x 3\" x 3\" bottle",
+        "weight": "1.2 lbs (shipping weight)",
+        "quantity": "12 oz bottle",
+        "benefits": "Nutritious, Convenient, Healthy, Natural"
+      },
+      {
+        "title": "Craft Non-Alcoholic Beer",
+        "slug": "craft_non-alcoholic_beer",
+        "tagline": "All the taste, none of the alcohol.",
+        "price": "$12.99",
+        "description": "Enjoy the rich flavor and crisp finish of this non-alcoholic beer, crafted with the same care as traditional brews. Perfect for any occasion.",
+        "dimensions": "9\" x 6\" x 5\" (6-pack carrier)",
+        "weight": "7.5 lbs (shipping weight)",
+        "quantity": "6-pack of 12 oz bottles",
+        "benefits": "Non-alcoholic, Flavorful, Craft-brewed, Refreshing"
+      },
+      {
+        "title": "Vitamin-Infused Wellness Drink",
+        "slug": "vitamin-infused_wellness_drink",
+        "tagline": "Hydrate and nourish your body.",
+        "price": "$14.99",
+        "description": "Infused with essential vitamins and minerals, this wellness drink supports hydration and boosts your overall health. Delicious and functional.",
+        "dimensions": "6\" x 6\" x 5\" (4-pack carrier)",
+        "weight": "5.0 lbs (shipping weight)",
+        "quantity": "Pack of 4, 12 oz bottles",
+        "benefits": "Vitamin-rich, Hydrating, Nourishing, Delicious"
+      },
+      {
+        "title": "Iced Tea Beverage",
+        "slug": "iced_tea_beverage",
+        "tagline": "A refreshing twist on classic tea.",
+        "price": "$8.99",
+        "description": "This naturally brewed iced tea features flavors like lemon, peach, and raspberry. Perfectly balanced and lightly sweetened.",
+        "dimensions": "6\" x 6\" x 5\" (4-pack carrier)",
+        "weight": "5.0 lbs (shipping weight)",
+        "quantity": "4-pack of 12 oz bottles",
+        "benefits": "Refreshing, Flavorful, Lightly-sweetened, Natural"
+      },
+      {
+        "title": "Cold Brew Coffee Drink",
+        "slug": "cold_brew_coffee_drink",
+        "tagline": "Smooth and energizing.",
+        "price": "$12.99",
+        "description": "This rich and creamy cold brew coffee is lightly sweetened for a perfect pick-me-up. Crafted with premium coffee beans for bold flavor.",
+        "dimensions": "6\" x 6\" x 5\" (4-pack carrier)",
+        "weight": "5.0 lbs (shipping weight)",
+        "quantity": "4-pack of 12 oz bottles",
+        "benefits": "Energizing, Smooth, Flavorful, Convenient"
+      },
+      {
+        "title": "Fruit-Infused Drink Syrup",
+        "slug": "fruit-infused_drink_syrup",
+        "tagline": "Create vibrant, fruity drinks at home.",
+        "price": "$9.99",
+        "description": "Add a burst of flavor to your beverages with this fruit syrup, perfect for sodas, cocktails, or desserts. Available in multiple fruity flavors.",
+        "dimensions": "8\" x 3\" x 3\" bottle",
+        "weight": "2.0 lbs (shipping weight)",
+        "quantity": "16 oz bottle",
+        "benefits": "Flavorful, Versatile, Convenient, Fruity"
+      },
+      {
+        "title": "Drink Mix Variety Pack",
+        "slug": "drink_mix_variety_pack",
+        "tagline": "Refreshing drinks made easy.",
+        "price": "$14.99",
+        "description": "This set includes syrups for cola, lemon tea, and fruit punch. Perfect for making your favorite soft drinks or tea-flavored beverages at home.",
+        "dimensions": "10\" x 6\" x 4\" (3-bottle carton)",
+        "weight": "6.0 lbs (shipping weight)",
+        "quantity": "Pack of 3, 16 oz bottles",
+        "benefits": "Variety, Convenient, Flavorful, Versatile"
+      }
+    ]
+  },
+  {
+    "category": "Pet Products",
+    "products": [
+      {
+        "title": "Soft and Savory Cat Chews",
+        "slug": "soft_and_savory_cat_chews",
+        "tagline": "Treat your feline to irresistible flavor.",
+        "price": "$6.99",
+        "description": "These soft and flavorful chews are packed with nutrients and a taste cats love. Ideal for rewarding or simply pampering your feline friend.",
+        "dimensions": "5\" x 3\" x 1.5\" bag",
+        "weight": "0.4 lbs (shipping weight)",
+        "quantity": "Pack of 30",
+        "benefits": "Nutritious, Tasty, Soft, Rewarding"
+      },
+      {
+        "title": "Long-Lasting Dental Dog Chews",
+        "slug": "long-lasting_dental_dog_chews",
+        "tagline": "Tasty treats that clean and strengthen.",
+        "price": "$12.99",
+        "description": "These durable chews help clean your dog’s teeth while providing a satisfying snack. Made with natural ingredients and perfect for dogs of all sizes.",
+        "dimensions": "8\" x 5\" x 2\" bag",
+        "weight": "1.0 lb (shipping weight)",
+        "quantity": "Pack of 10",
+        "benefits": "Dental, Durable, Natural, Satisfying"
+      },
+      {
+        "title": "Organic Catnip",
+        "slug": "organic_catnip",
+        "tagline": "Pure joy for your feline companion.",
+        "price": "$5.99",
+        "description": "This premium organic catnip is freshly harvested and packed for maximum potency. Sprinkle it on toys or scratching posts to delight your cat.",
+        "dimensions": "3\" x 3\" x 2\" jar",
+        "weight": "0.2 lbs (shipping weight)",
+        "quantity": "1 oz jar",
+        "benefits": "Organic, Potent, Entertaining, Fresh"
+      },
+      {
+        "title": "Grain-Free Premium Cat Food",
+        "slug": "grain-free_premium_cat_food",
+        "tagline": "Healthy nutrition for happy cats.",
+        "price": "$19.99",
+        "description": "Crafted with high-quality proteins and essential nutrients, this grain-free cat food supports your cat’s overall health and vitality. Perfect for adult cats.",
+        "dimensions": "10\" x 6\" x 4\" bag",
+        "weight": "4.5 lbs (shipping weight)",
+        "quantity": "4 lb bag",
+        "benefits": "Grain-free, Nutritious, Premium, Healthy"
+      },
+      {
+        "title": "All-Natural Dry Dog Food",
+        "slug": "all-natural_dry_dog_food",
+        "tagline": "Balanced nutrition for active dogs.",
+        "price": "$34.99",
+        "description": "This wholesome dry dog food is made with real meat and vegetables to provide complete and balanced nutrition. Ideal for dogs of all breeds and sizes.",
+        "dimensions": "20\" x 14\" x 6\" bag",
+        "weight": "15.5 lbs (shipping weight)",
+        "quantity": "15 lb bag",
+        "benefits": "All-natural, Nutritious, Balanced, Wholesome"
+      },
+      {
+        "title": "Crunchy Natural Dog Biscuits",
+        "slug": "crunchy_natural_dog_biscuits",
+        "tagline": "A delicious, wholesome treat for your furry friend.",
+        "price": "$10.99",
+        "description": "These all-natural dog biscuits are made with real chicken and whole grains, providing a crunchy texture that helps clean teeth. Perfect for training, rewarding, or just showing your pup some love. No artificial flavors or preservatives.",
+        "dimensions": "10\" x 6\" x 4\" box",
+        "weight": "2.5 lbs (shipping weight)",
+        "quantity": "32 oz box",
+        "benefits": "Crunchy, Natural, Tasty, Dental"
+      }
+    ]
+  },
+  {
+    "category": "Alcohol",
+    "products": [
+      {
+        "title": "Craft Lager Beer",
+        "slug": "craft_lager_beer",
+        "tagline": "Crisp, refreshing, and expertly brewed.",
+        "price": "$12.99",
+        "description": "This craft lager features a smooth, balanced flavor with subtle malt sweetness and a clean finish. Perfect for casual gatherings or pairing with your favorite meals.",
+        "dimensions": "9\" x 6\" x 7\" (6-pack carrier)",
+        "weight": "7.5 lbs (shipping weight, including glass bottles and packaging)",
+        "quantity": "6-pack of 12 oz bottles",
+        "benefits": "Refreshing, Smooth, Craft-brewed, Balanced"
+      },
+      {
+        "title": "Classic White Wine",
+        "slug": "classic_white_wine",
+        "tagline": "Refreshing and vibrant.",
+        "price": "$19.99",
+        "description": "A crisp white wine with notes of citrus, green apple, and a hint of honey. Perfect for light meals, summer evenings, or simply sipping on its own. Crafted to delight any palate.",
+        "dimensions": "12\" x 3\" x 3\" bottle",
+        "weight": "3.0 lbs (shipping weight, including glass bottle and packaging)",
+        "quantity": "750 ml bottle",
+        "benefits": "Refreshing, Vibrant, Crisp, Delightful"
+      },
+      {
+        "title": "Premium Hard Apple Cider",
+        "slug": "premium_hard_apple_cider",
+        "tagline": "Bold apple flavor with a crisp finish.",
+        "price": "$14.99",
+        "description": "This hard cider is made from freshly pressed apples, delivering a perfect balance of sweetness and tartness. Refreshingly crisp and naturally gluten-free, it’s ideal for any occasion.",
+        "dimensions": "6\" x 6\" x 7\" (4-pack carrier)",
+        "weight": "5.5 lbs (shipping weight, including glass bottles and packaging)",
+        "quantity": "4-pack of 12 oz bottles",
+        "benefits": "Refreshing, Crisp, Gluten-free, Flavorful"
+      },
+      {
+        "title": "Artisanal Mezcal",
+        "slug": "artisanal_mezcal",
+        "tagline": "Smoky, smooth, and authentically crafted.",
+        "price": "$49.99",
+        "description": "Handcrafted in the heart of Oaxaca, this artisanal mezcal offers a rich, smoky flavor with notes of citrus and earth. Perfect for sipping or mixing in cocktails, it brings a taste of tradition to your glass.",
+        "dimensions": "12\" x 3\" x 3\" bottle",
+        "weight": "3.0 lbs (shipping weight, including glass bottle and packaging)",
+        "quantity": "750 ml bottle",
+        "benefits": "Smoky, Authentic, Handcrafted, Smooth"
+      },
+      {
+        "title": "Golden Honey Mead",
+        "slug": "golden_honey_mead",
+        "tagline": "A sweet, ancient elixir.",
+        "price": "$24.99",
+        "description": "Made from the finest wildflower honey, this mead boasts a smooth, sweet flavor with hints of vanilla and fruit. Perfect for celebrations or as a unique addition to your wine collection.",
+        "dimensions": "12\" x 3\" x 3\" bottle",
+        "weight": "3.0 lbs (shipping weight, including glass bottle and packaging)",
+        "quantity": "750 ml bottle",
+        "benefits": "Sweet, Smooth, Unique, Celebratory"
+      },
+      {
+        "title": "Premium Blanco Tequila",
+        "slug": "premium_blanco_tequila",
+        "tagline": "Pure, vibrant, and full of flavor.",
+        "price": "$39.99",
+        "description": "Distilled from 100% blue agave, this premium tequila delivers a crisp, smooth taste with notes of citrus and pepper. Ideal for sipping or crafting the perfect margarita.",
+        "dimensions": "12\" x 3\" x 3\" bottle",
+        "weight": "3.0 lbs (shipping weight, including glass bottle and packaging)",
+        "quantity": "750 ml bottle",
+        "benefits": "Smooth, Premium, Flavorful, Versatile"
+      },
+      {
+        "title": "Classic Red Wine",
+        "slug": "classic_red_wine",
+        "tagline": "Bold and full-bodied.",
+        "price": "$19.99",
+        "description": "A rich red wine with notes of dark cherry, plum, and a hint of oak. Perfect for pairing with hearty meals or enjoying on its own. Crafted to deliver quality with every pour.",
+        "dimensions": "12\" x 3\" x 3\" bottle",
+        "weight": "3.0 lbs (shipping weight, including glass bottle and packaging)",
+        "quantity": "750 ml bottle",
+        "benefits": "Bold, Full-bodied, Rich, Quality"
+      },
+      {
+        "title": "Premium Coffee Liqueur",
+        "slug": "premium_coffee_liqueur",
+        "tagline": "Sweet indulgence in every sip.",
+        "price": "$29.99",
+        "description": "This luxurious coffee liqueur blends rich roasted coffee beans with smooth, sweet cream for a decadent flavor. Enjoy it over ice or mixed in your favorite cocktails.",
+        "dimensions": "12\" x 3.5\" x 3.5\" bottle (slightly wider due to shape)",
+        "weight": "3.5 lbs (shipping weight, including bottle and packaging)",
+        "quantity": "750 ml bottle",
+        "benefits": "Luxurious, Decadent, Smooth, Versatile"
+      }
+    ]
+  },
+  {
+    "category": "Smoking Products",
+    "products": [
+      {
+        "title": "Refillable Lighter",
+        "slug": "refillable_lighter",
+        "tagline": "Reliable ignition in any weather.",
+        "price": "$9.99",
+        "description": "This durable, windproof lighter offers a strong flame and sleek design. Refillable and reusable, it’s perfect for lighting cigars, cigarettes, or candles with ease.",
+        "dimensions": "3\" x 1.2\" x 0.5\"",
+        "weight": "0.2 lbs (shipping weight)",
+        "quantity": "1 lighter",
+        "benefits": "Refillable, Windproof, Durable, Sleek"
+      },
+      {
+        "title": "Modern Ceramic Ashtray",
+        "slug": "modern_ceramic_ashtray",
+        "tagline": "Stylish and functional for any setting.",
+        "price": "$14.99",
+        "description": "Made from high-quality ceramic, this ashtray is heat-resistant and easy to clean. Its modern design makes it suitable for both indoor and outdoor use.",
+        "dimensions": "4\" x 4\" x 1.5\"",
+        "weight": "0.8 lbs (shipping weight)",
+        "quantity": "1 ashtray",
+        "benefits": "Stylish, Heat-resistant, Durable, Easy-to-clean"
+      },
+      {
+        "title": "Long Wooden Matches",
+        "slug": "long_wooden_matches",
+        "tagline": "Safe, long-lasting, and easy to use.",
+        "price": "$5.99",
+        "description": "These long wooden matches are perfect for lighting candles, fireplaces, or pipes. Each match is designed for safety and reliability.",
+        "dimensions": "4.5\" x 2.5\" x 0.5\" box",
+        "weight": "0.3 lbs (shipping weight)",
+        "quantity": "Pack of 100",
+        "benefits": "Long-lasting, Safe, Reliable, Convenient"
+      },
+      {
+        "title": "Organic Hemp Rolling Papers",
+        "slug": "organic_hemp_rolling_papers",
+        "tagline": "Slow-burning for the perfect roll.",
+        "price": "$2.99",
+        "description": "Made from 100% organic hemp, these rolling papers offer a smooth and even burn. Ideal for creating your custom smoking experience.",
+        "dimensions": "3\" x 1.5\" x 0.3\" pack",
+        "weight": "0.1 lbs (shipping weight)",
+        "quantity": "Pack of 50",
+        "benefits": "Organic, Slow-burning, Smooth, Natural"
+      },
+      {
+        "title": "All-Natural Herbal Smoking Blend",
+        "slug": "all-natural_herbal_smoking_blend",
+        "tagline": "A tobacco-free alternative for a smooth experience.",
+        "price": "$12.99",
+        "description": "This premium herbal blend is made from natural ingredients and offers a relaxing and flavorful smoking experience. Perfect for mixing or enjoying on its own.",
+        "dimensions": "6\" x 4\" x 1\" bag",
+        "weight": "0.4 lbs (shipping weight)",
+        "quantity": "1 oz bag",
+        "benefits": "Natural, Relaxing, Flavorful, Tobacco-free"
+      },
+      {
+        "title": "Large Metal Rolling Tray",
+        "slug": "large_metal_rolling_tray",
+        "tagline": "Organize your smoking essentials with ease.",
+        "price": "$9.99",
+        "description": "This lightweight, durable tray provides a flat surface for rolling, preventing mess and keeping your tools organized. Easy to clean and built to last.",
+        "dimensions": "10\" x 6\" x 0.5\"",
+        "weight": "0.5 lbs (shipping weight)",
+        "quantity": "1 tray",
+        "benefits": "Durable, Lightweight, Convenient, Easy-to-clean"
+      },
+      {
+        "title": "Premium 4-Piece Herb Grinder",
+        "slug": "premium_4-piece_herb_grinder",
+        "tagline": "Effortlessly grind your herbs to perfection.",
+        "price": "$19.99",
+        "description": "Made from anodized aluminum, this grinder features sharp teeth, a mesh screen, and a storage compartment for a smooth, efficient grinding experience.",
+        "dimensions": "2.5\" x 2.5\" x 2\"",
+        "weight": "0.6 lbs (shipping weight)",
+        "quantity": "1 grinder",
+        "benefits": "Efficient, Durable, Portable, High-quality"
+      },
+      {
+        "title": "Organic Hemp Wick Roll",
+        "slug": "organic_hemp_wick_roll",
+        "tagline": "A natural flame for cleaner smoking.",
+        "price": "$4.99",
+        "description": "Made from organic hemp and beeswax, this wick provides a cleaner flame for lighting cigars, pipes, or herbs without the harsh chemicals of a lighter.",
+        "dimensions": "3\" x 3\" x 0.5\" roll",
+        "weight": "0.2 lbs (shipping weight)",
+        "quantity": "10 ft roll",
+        "benefits": "Organic, Natural, Cleaner, Convenient"
+      },
+      {
+        "title": "Glass Water Bong with Percolator",
+        "slug": "glass_water_bong_with_percolator",
+        "tagline": "Smooth hits every time.",
+        "price": "$49.99",
+        "description": "This high-quality glass bong features a built-in percolator for cooler, smoother smoke. Perfect for an enhanced smoking experience.",
+        "dimensions": "12\" x 4\" x 4\"",
+        "weight": "2.0 lbs (shipping weight)",
+        "quantity": "1 bong",
+        "benefits": "Smooth, Durable, High-quality, Enhanced"
+      },
+      {
+        "title": "Biodegradable Filter Tips",
+        "slug": "biodegradable_filter_tips",
+        "tagline": "Clean, smooth, and eco-friendly.",
+        "price": "$3.99",
+        "description": "These biodegradable filter tips ensure a smoother smoking experience while reducing waste. Easy to roll and use.",
+        "dimensions": "2\" x 1\" x 0.5\" pack",
+        "weight": "0.1 lbs (shipping weight)",
+        "quantity": "Pack of 50",
+        "benefits": "Biodegradable, Smooth, Eco-friendly, Convenient"
+      },
+      {
+        "title": "Deluxe 2-Hose Hookah Set",
+        "slug": "deluxe_2-hose_hookah_set",
+        "tagline": "Enjoy with friends or solo.",
+        "price": "$39.99",
+        "description": "This stylish hookah comes with two hoses and is designed for easy assembly and use. Perfect for social gatherings or a relaxing solo session.",
+        "dimensions": "14\" x 6\" x 6\"",
+        "weight": "3.0 lbs (shipping weight)",
+        "quantity": "1 hookah set",
+        "benefits": "Stylish, Social, Durable, Convenient"
+      },
+      {
+        "title": "Rechargeable Electric Hookah System",
+        "slug": "rechargeable_electric_hookah_system",
+        "tagline": "A modern take on a classic experience.",
+        "price": "$79.99",
+        "description": "This electric hookah eliminates the need for charcoal, providing a cleaner and more convenient smoking experience. USB rechargeable and portable.",
+        "dimensions": "10\" x 5\" x 5\"",
+        "weight": "2.5 lbs (shipping weight)",
+        "quantity": "1 electric hookah",
+        "benefits": "Electric, Portable, Convenient, Modern"
+      },
+      {
+        "title": "Digital Heated Vaporizer",
+        "slug": "digital_heated_vaporizer",
+        "tagline": "Precision heat for perfect flavor.",
+        "price": "$149.99",
+        "description": "Featuring adjustable temperature settings and a sleek design, this digital vaporizer delivers pure flavor and smooth vapor for any dry herb or concentrate.",
+        "dimensions": "6\" x 4\" x 4\"",
+        "weight": "2.0 lbs (shipping weight)",
+        "quantity": "1 vaporizer",
+        "benefits": "Precise, Efficient, High-tech, Versatile"
+      },
+      {
+        "title": "Portable Heated Vaporizer Pen",
+        "slug": "portable_heated_vaporizer_pen",
+        "tagline": "Discreet and powerful on the go.",
+        "price": "$49.99",
+        "description": "Compact and rechargeable, this vaporizer pen is perfect for enjoying concentrates or oils with precision heating technology and a sleek design.",
+        "dimensions": "5\" x 1\" x 1\"",
+        "weight": "0.5 lbs (shipping weight)",
+        "quantity": "1 vaporizer pen",
+        "benefits": "Portable, Discreet, Rechargeable, Efficient"
+      },
+      {
+        "title": "Pre-Filled CBD Vape Cartridge",
+        "slug": "pre-filled_cbd_vape_cartridge",
+        "tagline": "Smooth, flavorful, and ready to use.",
+        "price": "$19.99",
+        "description": "Pre-filled with premium CBD oil, this cartridge offers smooth vapor and rich flavor. Compatible with most standard vape pens.",
+        "dimensions": "3\" x 1\" x 0.5\"",
+        "weight": "0.2 lbs (shipping weight)",
+        "quantity": "1 cartridge",
+        "benefits": "Pre-filled, Convenient, Smooth, Flavorful"
+      },
+      {
+        "title": "Refillable Vape Cartridges",
+        "slug": "refillable_vape_cartridges",
+        "tagline": "Customize your vaping experience.",
+        "price": "$14.99",
+        "description": "These refillable cartridges are designed for oils or concentrates, offering convenience and compatibility with most vape pens. Leak-proof and easy to use.",
+        "dimensions": "3.5\" x 2\" x 1\" pack",
+        "weight": "0.3 lbs (shipping weight)",
+        "quantity": "Pack of 5",
+        "benefits": "Refillable, Leak-proof, Convenient, Compatible"
+      }
+    ]
+  },
+  {
+    "category": "Confectionery",
+    "products": [
+      {
+        "title": "Decadent Chocolate Fudge Brownies",
+        "slug": "decadent_chocolate_fudge_brownies",
+        "tagline": "Rich, gooey, and baked to perfection.",
+        "price": "$12.99",
+        "description": "These ultra-rich chocolate brownies are crafted with the finest cocoa for a melt-in-your-mouth experience. Perfect for dessert lovers, each bite delivers intense chocolate flavor balanced with a hint of sweetness. Great for parties or as a treat for yourself!",
+        "dimensions": "6\" x 6\" x 2\" box",
+        "weight": "1.5 lbs (shipping weight)",
+        "quantity": "Box of 6",
+        "benefits": "Decadent, Chocolatey, Rich, Delicious"
+      },
+      {
+        "title": "Artisan Roasted Coffee Beans",
+        "slug": "artisan_roasted_coffee_beans",
+        "tagline": "Wake up to the perfect cup.",
+        "price": "$14.99",
+        "description": "Sourced from premium coffee farms, these beans are slow-roasted to bring out bold and balanced flavors. Perfect for espresso, drip, or French press, this blend will transform your morning routine.",
+        "dimensions": "8\" x 4\" x 3\" bag",
+        "weight": "1.2 lbs (shipping weight, including packaging)",
+        "quantity": "1 lb bag",
+        "benefits": "Bold, Balanced, Premium, Fresh"
+      },
+      {
+        "title": "Classic Chocolate Chip Cookies",
+        "slug": "classic_chocolate_chip_cookies",
+        "tagline": "Homemade taste in every bite.",
+        "price": "$8.99",
+        "description": "These classic chocolate chip cookies are crispy on the outside and chewy on the inside, with a generous amount of premium chocolate chips. They’re a timeless treat for any occasion!",
+        "dimensions": "7\" x 5\" x 2\" box",
+        "weight": "1.5 lbs (shipping weight)",
+        "quantity": "12 cookies",
+        "benefits": "Classic, Delicious, Homemade, Chewy"
+      },
+      {
+        "title": "Relaxing Herbal Infusion Tea Blend",
+        "slug": "relaxing_herbal_infusion_tea_blend",
+        "tagline": "Sip your way to tranquility.",
+        "price": "$9.99",
+        "description": "A soothing blend of chamomile, mint, and lemongrass designed to calm your senses and relax your mind. Perfect for unwinding after a long day or preparing for restful sleep.",
+        "dimensions": "5\" x 3\" x 3\" box",
+        "weight": "0.5 lbs (shipping weight)",
+        "quantity": "20 tea bags",
+        "benefits": "Soothing, Relaxing, Natural, Aromatic"
+      },
+      {
+        "title": "Pure Organic Wildflower Honey",
+        "slug": "pure_organic_wildflower_honey",
+        "tagline": "Sweet and golden, straight from nature.",
+        "price": "$11.99",
+        "description": "Harvested from wildflowers, this organic honey delivers a smooth, natural sweetness. Perfect for tea, baking, or drizzling over pancakes. A pantry essential!",
+        "dimensions": "4.5\" x 2.5\" x 2.5\" jar",
+        "weight": "1.5 lbs (shipping weight, including jar)",
+        "quantity": "16 oz jar",
+        "benefits": "Organic, Natural, Sweet, Versatile"
+      },
+      {
+        "title": "Gourmet Fruit Lollipops",
+        "slug": "gourmet_fruit_lollipops",
+        "tagline": "Sweet treats for every occasion.",
+        "price": "$6.99",
+        "description": "These handcrafted lollipops are bursting with natural fruit flavors like strawberry, mango, and blueberry. Perfect for gifting or a little personal indulgence.",
+        "dimensions": "5\" x 4\" x 1.5\" bag",
+        "weight": "0.8 lbs (shipping weight)",
+        "quantity": "Pack of 10",
+        "benefits": "Flavorful, Handcrafted, Sweet, Fruity"
+      },
+      {
+        "title": "Premium Wheat Noodles",
+        "slug": "premium_wheat_noodles",
+        "tagline": "Perfect for every dish, from ramen to stir-fry.",
+        "price": "$7.99",
+        "description": "These versatile noodles are made from high-quality wheat flour for a firm yet tender texture. Ideal for soups, stir-fries, or salads. A must-have for any pantry.",
+        "dimensions": "10\" x 4\" x 2\" pack",
+        "weight": "1.2 lbs (shipping weight)",
+        "quantity": "16 oz pack",
+        "benefits": "Versatile, Premium, Delicious, Pantry-staple"
+      },
+      {
+        "title": "Fluffy Pancake Mix",
+        "slug": "fluffy_pancake_mix",
+        "tagline": "Breakfast made easy and delicious.",
+        "price": "$8.99",
+        "description": "Whip up fluffy, golden pancakes in minutes with this easy-to-use mix. Just add water or milk, and enjoy a classic breakfast that everyone will love.",
+        "dimensions": "8\" x 4\" x 3\" bag",
+        "weight": "2.5 lbs (shipping weight)",
+        "quantity": "2 lb bag",
+        "benefits": "Easy, Delicious, Convenient, Fluffy"
+      },
+      {
+        "title": "Handmade Artisan Pizza",
+        "slug": "handmade_artisan_pizza",
+        "tagline": "Classic Italian flavor at home.",
+        "price": "$12.99",
+        "description": "Made with a crisp crust, fresh tomato sauce, and creamy mozzarella, this pizza is a delightful taste of Italy. Just bake and enjoy!",
+        "dimensions": "13\" x 13\" x 2\" box",
+        "weight": "2.0 lbs (shipping weight)",
+        "quantity": "12\" pizza",
+        "benefits": "Handmade, Authentic, Delicious, Convenient"
+      },
+      {
+        "title": "Spicy Gourmet Hot Sauce",
+        "slug": "spicy_gourmet_hot_sauce",
+        "tagline": "Add heat to your favorite dishes.",
+        "price": "$7.99",
+        "description": "Made with handpicked chili peppers, this hot sauce balances bold heat with complex flavor. Perfect for wings, tacos, or anything needing a fiery kick.",
+        "dimensions": "6\" x 2\" bottle",
+        "weight": "1.0 lb (shipping weight, including glass bottle)",
+        "quantity": "8 oz bottle",
+        "benefits": "Spicy, Flavorful, Gourmet, Versatile"
+      },
+      {
+        "title": "100% Pure Maple Syrup",
+        "slug": "100%_pure_maple_syrup",
+        "tagline": "Sweeten your day with natural goodness.",
+        "price": "$14.99",
+        "description": "Harvested from Canadian maple trees, this syrup is rich, smooth, and full of natural flavor. Ideal for pancakes, waffles, or baking.",
+        "dimensions": "6\" x 3\" x 3\" bottle",
+        "weight": "1.5 lbs (shipping weight, including bottle)",
+        "quantity": "16 oz bottle",
+        "benefits": "Pure, Natural, Sweet, Rich"
+      },
+      {
+        "title": "Premium Loose Leaf Green Tea",
+        "slug": "premium_loose_leaf_green_tea",
+        "tagline": "A fresh, healthy brew.",
+        "price": "$10.99",
+        "description": "Sourced from the finest tea gardens, this green tea offers a smooth, refreshing flavor with a hint of sweetness. Packed with antioxidants for a healthy lifestyle.",
+        "dimensions": "4\" x 3\" x 3\" tin",
+        "weight": "0.5 lbs (shipping weight, including tin)",
+        "quantity": "4 oz tin",
+        "benefits": "Premium, Antioxidant-rich, Refreshing, Healthy"
+      },
+      {
+        "title": "Golden Waffles",
+        "slug": "golden_waffles",
+        "tagline": "Crispy, fluffy, and ready to enjoy.",
+        "price": "$9.99",
+        "description": "These waffles are crispy on the outside and soft on the inside, perfect for breakfast or dessert. Simply heat and serve with your favorite toppings.",
+        "dimensions": "8\" x 8\" x 2\" box",
+        "weight": "1.5 lbs (shipping weight)",
+        "quantity": "Pack of 4",
+        "benefits": "Delicious, Convenient, Crispy, Fluffy"
+      }
+    ]
+  },
+  {
+    "category": "Skincare",
+    "products": [
+      {
+        "title": "Hydrating Skin Care Set",
+        "slug": "hydrating_skin_care_set",
+        "tagline": "Nourish, rejuvenate, and glow naturally.",
+        "price": "$39.99",
+        "description": "This skin care set includes a lightweight lotion, a rich moisturizing cream, a hydrating serum, and a rejuvenating oil. Each product is infused with natural botanicals to promote hydration, elasticity, and a radiant complexion. Perfect for daily use on all skin types.",
+        "dimensions": "8\" x 6\" x 3\" (boxed set)",
+        "weight": "2.0 lbs (shipping weight)",
+        "quantity": "4-piece set",
+        "benefits": "Hydrating, Rejuvenating, Natural, Nourishing"
+      },
+      {
+        "title": "SPF 50 Broad-Spectrum Sunscreen Lotion",
+        "slug": "spf_50_broad-spectrum_sunscreen_lotion",
+        "tagline": "Ultimate sun protection for every adventure.",
+        "price": "$14.99",
+        "description": "This non-greasy, water-resistant sunscreen lotion provides broad-spectrum SPF 50 protection against UVA and UVB rays. Enriched with skin-soothing aloe and antioxidants, it keeps your skin safe and hydrated while outdoors.",
+        "dimensions": "6\" x 2.5\" x 2.5\"",
+        "weight": "0.7 lbs (shipping weight)",
+        "quantity": "6 oz bottle",
+        "benefits": "Protective, Non-greasy, Hydrating, Water-resistant"
+      },
+      {
+        "title": "Aftercare Healing Tattoo Cream",
+        "slug": "aftercare_healing_tattoo_cream",
+        "tagline": "Protect, hydrate, and enhance your ink.",
+        "price": "$12.99",
+        "description": "Designed for fresh tattoos, this balm soothes and moisturizes skin while promoting healing. Made with natural ingredients like shea butter and vitamin E, it helps preserve your tattoo’s vibrant colors and details.",
+        "dimensions": "2.5\" x 2.5\" x 1.5\"",
+        "weight": "0.3 lbs (shipping weight)",
+        "quantity": "2 oz jar",
+        "benefits": "Healing, Soothing, Moisturizing, Protective"
+      }
+    ]
+  }
+]
+

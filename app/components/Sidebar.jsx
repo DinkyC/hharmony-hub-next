@@ -71,22 +71,24 @@ export default function Sidebar() {
                   <summary className="text-base">Products</summary>
                   <ul className="p-2 bg-base-100 rounded-t-none">
                     <li>
-                      <a href="/pets">Pets</a>
+                      <a href="/category/pet_products">Pets</a>
                     </li>
                     <li>
-                      <a href="/enhancers">Enhancers</a>
+                      <a href="/category/non-alcoholic_beverages">
+                        Non-Alcoholic
+                      </a>
                     </li>
                     <li>
-                      <a href="/alcohol">Alcohol</a>
+                      <a href="/category/smoking_products">Smoking Products</a>
                     </li>
                     <li>
-                      <a href="/smoking">Smoking Products</a>
+                      <a href="/category/confectionery">Confectionary</a>
                     </li>
                     <li>
-                      <a href="/confectionary">Confectionary</a>
+                      <a href="/category/skincare">Skincare</a>
                     </li>
                     <li>
-                      <a href="/skincare">Skincare</a>
+                      <a href="/category/alcohol">Alcohol</a>
                     </li>
                   </ul>
                 </details>
@@ -111,22 +113,22 @@ export default function Sidebar() {
               <summary>Products</summary>
               <ul className="p-2 bg-base-100 rounded-t-none">
                 <li>
-                  <a href="/pets">Pets</a>
+                  <a href="/category/pet_products">Pets</a>
                 </li>
                 <li>
-                  <a href="/enhancers">Enhancers</a>
+                  <a href="/category/non-alcoholic_beverages">Non-Alcoholic</a>
                 </li>
                 <li>
-                  <a href="/alcohol">Alcohol</a>
+                  <a href="/category/smoking_products">Smoking Products</a>
                 </li>
                 <li>
-                  <a href="/smoking">Smoking Products</a>
+                  <a href="/category/confectionery">Confectionary</a>
                 </li>
                 <li>
-                  <a href="/confectionary">Confectionary</a>
+                  <a href="/category/skincare">Skincare</a>
                 </li>
                 <li>
-                  <a href="/skincare">Skincare</a>
+                  <a href="/category/alcohol">Alcohol</a>
                 </li>
               </ul>
             </details>
