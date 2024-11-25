@@ -1,3 +1,4 @@
+import { notFound } from "next/navigation";
 import { lookUpByProduct } from "../utils/actions";
 import PayPage from "./PayPage";
 import { Permanent_Marker } from "next/font/google";
@@ -7,12 +8,12 @@ const permanentMarker = Permanent_Marker({
   display: "swap",
 });
 
-
 export default async function Pay({ searchParams }) {
   const { product, category } = searchParams;
   const productInfo = await lookUpByProduct(product, category);
-  console.log(productInfo)
-
+  if (productInfo == null) {
+    notFound();
+  }
   const cost = Number(productInfo.price.replace("$", ""));
   const productName = product
     .replaceAll("_", " ")
